@@ -1,0 +1,9 @@
+.DS_Store
+data/
+__pycache__/
+*.pyc
+*.qgs~
+*.qgz~
+_build/
+node_modules/
+.env
