@@ -1,0 +1,24 @@
+version: 1
+project:
+  title: "From Field to Code: PyQGIS from Scratch"
+  subtitle: "Build a real tool and learn to think like an engineer"
+  authors:
+    - name: Elvira Gayanova
+  license:
+    content: CC-BY-4.0
+    code: Apache-2.0
+  github: https://github.com/ElviraGD-lab/field-to-code-pyqgis
+  toc:
+    - file: index.md
+    - title: Español
+      children:
+        - file: es/index.md
+        - file: es/00-prologo.md
+    - title: English
+      children:
+        - file: en/index.md
+        - file: en/00-prologue.md
+site:
+  template: book-theme
+  options:
+    logo_text: From Field to Code
