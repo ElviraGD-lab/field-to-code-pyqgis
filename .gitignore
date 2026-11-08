@@ -7,3 +7,6 @@ __pycache__/
 _build/
 node_modules/
 .env
+
+# Russian drafts never go to this repository
+*.ru.md

@@ -1,0 +1,23 @@
+#!/bin/sh
+# Block any Cyrillic text (U+0400-U+04FF) from entering the repository.
+# Checks staged file names and staged file contents.
+
+status=0
+
+for file in $(git diff --cached --name-only --diff-filter=ACMR); do
+    if printf '%s' "$file" | perl -CS -ne 'exit(/[\x{0400}-\x{04FF}]/ ? 0 : 1)'; then
+        echo "Blocked: Cyrillic in file name: $file"
+        status=1
+        continue
+    fi
+    if git show ":$file" | perl -CSD -ne 'if (/[\x{0400}-\x{04FF}]/) { $found = 1; print "  line $.: $_" } END { exit($found ? 0 : 1) }' > /tmp/cyrillic_check.txt 2>/dev/null; then
+        echo "Blocked: Cyrillic text in $file"
+        head -5 /tmp/cyrillic_check.txt
+        status=1
+    fi
+done
+
+if [ $status -ne 0 ]; then
+    echo "Commit stopped. Russian text stays in field-to-code-pyqgis-ru."
+fi
+exit $status
