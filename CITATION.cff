@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this book or the tool, please cite it as below."
+title: "From Field to Code: PyQGIS from Scratch"
+abstract: >-
+  An open book and a QGIS 4 tool that show which residential buildings stand
+  close to overhead power lines and how long fire crews take to reach them,
+  by day and by night. Worked example: Lena, Asturias (Spain).
+type: software
+authors:
+  - family-names: Gayanova
+    given-names: Elvira
+    orcid: "https://orcid.org/0009-0002-4252-311X"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+repository-code: "https://github.com/ElviraGD-lab/field-to-code-pyqgis"
+url: "https://elviragd-lab.github.io/field-to-code-pyqgis/"
+keywords:
+  - QGIS
+  - PyQGIS
+  - power lines
+  - emergency response
+  - exposure analysis
+  - open data

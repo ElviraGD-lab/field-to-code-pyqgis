@@ -4,6 +4,7 @@ project:
   subtitle: "Build a real tool and learn to think like an engineer"
   authors:
     - name: Elvira Gayanova
+      orcid: 0009-0002-4252-311X
   license:
     content: CC-BY-4.0
     code: Apache-2.0
