@@ -37,7 +37,7 @@ jobs:
       - name: Build HTML
         working-directory: book
         run: myst build --html
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: book/_build/html
       - name: Deploy
