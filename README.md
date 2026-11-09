@@ -8,7 +8,7 @@ Book 1 of the *From Field to Code* series. Written in Spanish and English.
 
 ## What you build
 
-A QGIS 4 Processing algorithm that answers one question: where would an overhead power line failure in Asturias (Spain) affect people the most, and how fast can help get there?
+A QGIS 4 Processing algorithm that answers one question for any municipality: which residential buildings stand close to overhead power lines, and how long fire crews take to reach them, by day and by night. The worked example is Lena, in Asturias (Spain).
 
 ## Licence
 

@@ -13,7 +13,7 @@ project:
     - title: Español
       children:
         - file: es/index.md
-        - file: es/00-prologo.md
+        - file: es/00-prologue.md
     - title: English
       children:
         - file: en/index.md

@@ -2,115 +2,153 @@
 title: "Prologue: When the lights go out"
 ---
 
-## The day the power stopped
+## 28 April 2025
 
-At 12:33 on 28 April 2025, Spain and Portugal went dark. Not a street, not a city: the entire Iberian Peninsula. Trains stopped between stations, traffic lights went out in the middle of junctions, and card machines stopped taking payments. Within a few hours the mobile networks began to fail, and phones ran flat one by one.
+At 12:33, Spain and Portugal lost their electricity. The whole peninsula, all at once.
 
-That afternoon, millions of us discovered, all at once, something we rarely stop to think about: electricity is not a convenience. It is the medium we live in, like air, and we only notice it when it is gone.
+Trains and metros stopped, traffic lights went out, cash machines and shop tills went down. A few hours later, phone batteries were running flat, and as mobile masts lost their backup power, the networks went down too.
 
-For most of us it was over within the day, and by nightfall the lights were back on. But for some people a day like that comes round every winter. What goes dark for them is not the country but the valley. The power comes back not by evening but after one, two or three days, and in the meantime the road that help would have to take is blocked by fallen trees and snow. For a few hours, the blackout gave the rest of us a taste of what they know only too well.
+**Electricity isn't a convenience. It's what everything else runs on.** Like air, it's something you only notice when it's gone.
 
-Almost a year later, ENTSO-E, the body that brings together Europe's transmission system operators, published its final report. The cause was not a storm, a fire or a fallen tree. It was a cascade of overvoltages: the system lost control of voltage, generating units tripped one after another, and within seconds the whole grid had collapsed.[^1]
+For most people it was all over by nightfall. But for some, a day like that comes round every winter. What goes dark for them isn't the country – it's their valley. The power doesn't come back that evening; it comes back two or three days later, and all that time the only road in is blocked by fallen trees and snow. For a few hours that day, the rest of us were in their shoes.
 
-That blackout was a rarity. It struck under an almost cloudless sky and hit everyone at once. Ordinary outages are different. They arrive with bad weather, start in one place and last longer. And for the people they reach, they can be a good deal more dangerous.
+Almost a year later, ENTSO-E, the European association of transmission system operators, published its final report. No storm, no fire, no fallen tree. It was a cascade of overvoltage events: the system couldn't hold the voltage, generating units tripped one after another, and within seconds the whole thing had collapsed.[^1]
 
-This book is about the ordinary kind.
+**A blackout like that is rare.** It happened under almost clear skies and hit everyone at once. An ordinary outage is different: it comes with bad weather, starts in one place and lasts longer. And for the people it reaches, it's more dangerous.
 
-## Asturias: snow, trees and closed roads
+This book is about the ordinary outage.
 
-In February 2018 a snowstorm swept across Asturias, in northern Spain. Trees came down on power lines, and hillsides gave way in landslides. Around 10,000 customers lost supply. Most were EDP customers in the south-west, in Ibias, Tineo, Somiedo, Cangas del Narcea, Quirós and Laviana; another 2,500 or so, supplied by Viesgo, were in Mieres, Aller and Lena, with a few hundred more in Los Oscos and Grandas de Salime.[^2]
+## Asturias
 
-The regional emergency service's statement from those days contains a sentence that is easy to skim past. The companies explained what was stopping them from repairing the faults. It was not a lack of crews, or the technical difficulty of the work. It was access: snow had closed the roads and mountain passes. Before you can repair a line, you have to be able to reach the fault.
+**February 2018.** A snowstorm, trees falling on power lines, landslides on the hillsides. Around 10,000 customers lose power:
 
-Eight months later, on 28 October, wet snow fell while the trees were still in leaf – just when they can hold the most snow. By evening around 13,500 households were still without power, down from a peak of close to 15,000. The list of municipalities had a familiar ring: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. The emergency service logged 169 incidents, and fallen trees blocked roads in 17 municipalities.[^3]
+- most of them EDP customers: Ibias, Tineo, Somiedo, Cangas del Narcea, Quirós, Laviana;
+- around 2,500 Viesgo customers in Mieres, Aller and Lena;
+- a few hundred more in Los Oscos and Grandas de Salime.[^2]
 
-Lay the two reports side by side and the pattern is hard to miss. The same mountain municipalities, and always the same chain of events: snow and wind bring trees down on the lines and the power goes; trees come down on the roads too, and help cannot get through.
+The key line in the statement from 112 Asturias, the regional emergency service, is the companies' explanation of why repairs are so slow. It isn't a shortage of crews, or how hard the faults are to fix. It's that snow has closed the roads and mountain passes. **Before you can repair a line, you have to be able to get to it.**
 
-Nor are the big transmission lines immune. In March 2011, near the Pajares pass, on a stretch some 1,800 metres up, ice snapped a conductor on the 400 kV Soto–La Robla line, one of the main electrical links between Asturias and León. The line had to be taken out of service.[^4]
+**October 2018.** Wet snow while the trees are still in leaf – exactly when they hold the most snow. At the peak, close to 15,000 households are without power; by evening, still around 13,500. The list of municipalities is almost the same: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. In total, 169 incidents, and fallen trees block roads in 17 municipalities.[^3]
 
-## Spain: numbers that rise with the storms
+Put the two reports side by side and the picture is the same:
 
-Spain's Ministry for the Ecological Transition publishes a figure with an unlovely name, TIEPI, which measures how long the network goes without supply.[^tiepi] In sparsely populated rural areas, TIEPI due to force majeure was 0.05 hours in 2008: three minutes in a whole year. In 2009 it rose to 1.83 hours, and in 2010 to 3.66, almost four hours.[^5] In two years it had risen more than seventyfold – exactly when Storms Klaus (January 2009) and Xynthia (February 2010) battered northern Spain.
+1. **Trees fall on the lines** – the power goes.
+2. **Trees fall on the roads** – help can't get through.
 
-An average also spreads things out evenly. Averaged across all of Spain's rural areas, those hours look modest; in one particular mountain village they can mean several days without electricity.
+And always in the same mountain municipalities.
 
-In January 2021, Storm Filomena buried central Spain in snow. Almost 15,000 supply interruptions were recorded between 8 and 12 January.[^6] In Castilla-La Mancha alone, around 27,000 customers lost power, 18,500 of them in the province of Toledo.[^7]
+The big lines aren't spared either. In March 2011, near the Pajares pass, on a stretch of the line at around 1,800 metres, ice snapped a conductor on the 400 kV Soto–La Robla line, one of the main links between Asturias and León. The line had to be taken out of service.[^4]
 
-## Europe: three storms, three lessons
+## Spain
 
-**Sweden, January 2005.** Storm Gudrun felled some 250 million trees and cut off electricity to around 700,000 people. Some waited up to 35 days to get it back: five weeks without power in a Scandinavian winter.[^8] Sweden then changed the rules. Network companies now have to compensate customers for long outages, and much of the distribution network has gone underground.
+Spain's Ministry for the Ecological Transition publishes an indicator called TIEPI.[^tiepi] In short, it shows the average number of hours a year that installed capacity on the network is left without supply.
 
-**United Kingdom, November 2021.** Storm Arwen cut supply to more than a million customers. Around 40,000 were without power for more than three days, and almost 4,000 for over a week. Most of the faults were caused by trees and branches falling on the lines. The energy regulator, Ofgem, reached two conclusions that matter for this book. First, tree work was aimed at maintaining safety clearances, not at making the network withstand a storm. Second, the distribution companies had not identified their most vulnerable customers in advance or given them priority. Compensation came to around £40 million.[^9]
+**In sparsely populated rural areas, the part caused by force majeure rose more than seventyfold in two years:**
 
-**Portugal, January 2026.** Storm Kristin brought gusts of around 200 km/h. More than a million customers lost power and over 6,000 km of distribution lines were damaged. Two weeks later, some 30,000 people in the worst-hit area were still in the dark. Repairing the network alone cost the distribution company, E-REDES, about €110 million – and that was barely a fiftieth of the total damage, put at €5.3 billion. Almost three-quarters of that figure was uninsured.[^10]
+- 2008: 0.05 hours – three minutes in the whole year;
+- 2009: 1.83 hours;
+- 2010: 3.66 hours.[^5]
 
-The European Environment Agency adds one figure that explains a great deal: six out of ten power outages cause knock-on failures in other sectors, above all telecommunications.[^10] When the power goes, the phone you might use to call for help is not far behind.
+Those are exactly the years when Storms Klaus (January 2009) and Xynthia (February 2010) hit northern Spain.
 
-## Why not bury the lines?
+And bear in mind that this is the average across all of Spain's sparsely populated rural areas. Under four hours on average doesn't sound like much. For one particular mountain village, it can mean several days without power.
 
-It is the first question almost everyone asks. If overhead lines are so vulnerable to trees and ice, why not put them underground? The engineers' answer is not stubbornness. It is arithmetic, physics and time.
+In January 2021, Storm Filomena buried central Spain in snow. Between 8 and 12 January there were almost 15,000 supply interruptions.[^6] In Castilla-La Mancha alone, around 27,000 customers were without power, 18,500 of them in the province of Toledo.[^7]
 
-**Arithmetic.** For large 400 kV transmission lines, underground cable costs €4–8 million per kilometre, and more than €10 million where the ground is difficult. An overhead line in open countryside costs €0.6–1 million per kilometre, and €1.5–2 million in the mountains.[^11] For the price of one kilometre underground you could build somewhere between four and thirteen kilometres overhead.
+## Europe: three storms and what they taught us
 
-**Physics.** A long alternating-current cable behaves like a giant capacitor. Beyond about 30–35 km it needs reactive power compensation: extra, expensive equipment whose only job is to make the cable work at all.[^11]
+1. **Sweden, 2005, Storm Gudrun.** Around 250 million trees down and some 700,000 people without electricity, some of them for up to 35 days. Five weeks without power in a Scandinavian winter.[^8] **What changed:** companies now have to compensate customers for long outages, and much of the distribution network has gone underground.
 
-**Time.** A broken overhead conductor can be spotted from the road and fixed within hours. With a buried cable, the fault has to be located, the cable dug up and a new section jointed in, which can take days or weeks.[^11]
+2. **United Kingdom, 2021, Storm Arwen.** More than a million customers without power; around 40,000 for more than three days, almost 4,000 for over a week. Nearly all the damage came from trees and branches. **What the regulator, Ofgem, found:** money for tree work went on maintaining safety clearances rather than on making the network resilient to storms. And the distribution network operators didn't know in advance where their most vulnerable customers lived. Compensation came to around £40 million.[^9]
 
-Then there is the landscape. Asturias is all steep slopes, rock and narrow valleys, with lines running through them for tens of kilometres. Part of the distribution network near towns and villages can go underground, as it did in Sweden, but most of it will stay overhead for a long time to come. So the useful question is not how to get rid of overhead lines, but how to live alongside them knowing where the risk lies.
+3. **Portugal, 2026, Storm Kristin.** Gusts of around 200 km/h, more than a million customers without power and over 6,000 km of network damaged. Two weeks later, some 30,000 people were still without electricity. **What it cost:** repairing the network alone came to about €110 million for E-REDES, the distribution company. That's roughly a fiftieth of the total damage, which was put at €5.3 billion. Only 26% of the total was insured.[^10]
 
-## What danger does a line pose to those who live nearby?
+And one more figure, from the European Environment Agency: roughly six in ten power outages trigger failures in other sectors, above all telecommunications.[^10] **The power goes, and soon after, so does the phone you'd use to call for help.**
 
-Two things need to be kept apart here, because they are easily confused.
+## Why not put everything underground?
 
-**The first is the danger of the line itself.** A conductor that falls, or brushes against a tree, can set vegetation alight, and a live conductor lying on the ground can kill anyone who comes near. Both risks grow the closer you are: a house 20 metres from a line is in a very different position from one a kilometre away. In California, fires started by power lines have become the centre of utilities' planning. In Chile, a court has ordered a distribution company to compensate the victims of a fire started by a poorly maintained line.[^12] And in Spain, an electricity company has faced a €10 million bill for a fire started by one of its lines.[^13]
+It's the first thing almost everyone asks. Short answer: underground is more expensive, more complicated and slower to repair.
 
-**The second is what happens when the power goes off.** Whether a house loses supply does not depend on how close it is to the line. It depends on how the network is laid out – on whether the house sits 'downstream' of the fault. A home directly beneath a line may keep its power while a village three kilometres away loses it.
+1. **More expensive.** For 400 kV lines, underground cable costs €4–8 million per kilometre, and more than €10 million on difficult ground. An overhead line in open countryside costs €0.6–1 million, and €1.5–2 million in the mountains.[^11] In open country, one kilometre underground costs as much as 4–13 kilometres overhead.
 
-This book deals with the first question: **who lives close to the source of danger, and how long help might take to reach them.** The second would require knowing how the distribution network is connected, and that information is not public.
+2. **More complicated.** A long alternating-current cable behaves like a huge capacitor. Beyond about 30–35 km it needs reactive power compensation – separate, expensive equipment whose only purpose is to let the cable work at all.[^11]
 
-One more point, to avoid any misunderstanding. When people in Spain talk about 'houses next to high-voltage lines', they almost always mean electromagnetic fields and health. This book does not go into that question.
+3. **Slower to repair.** A broken overhead conductor can be seen from the road and, once crews can get to it, fixed within hours. With an underground cable, the fault has to be located, the cable dug up and a new section jointed in, and that takes days or weeks.[^11]
 
-## Why it is in the companies' own interest
+And in Asturias there's the terrain on top of that: steep slopes, rock and narrow valleys, with lines running through them for tens of kilometres. Some of the network can go underground, as it did in Sweden. But most of it will stay on poles and pylons for a long time to come.
 
-After every major failure, the same question gets asked: could this have been foreseen?
+**So the question isn't how to get rid of overhead lines, but how to live alongside them and know where the risk is.**
 
-ITC-LAT 07, the technical instruction for overhead lines in Spain's high-voltage regulations, already requires operators to check for trees that could fall onto the conductors. But the check is purely geometric: if the tree fell, would it reach the conductor?[^14] The rules say nothing about where people live nearby, whether they are elderly or otherwise vulnerable, or how many minutes a fire engine would need to get there. Nor do they say which section to inspect first.
+## What danger does a line pose to people living nearby?
 
-That is the difference between complying with a standard and managing a risk. A company that knows in advance where its lines run closest to homes, and where help would take longest to arrive, can prioritise tree work on those sections, brief the emergency services in advance, and show that the risk has been identified and is under control. That costs less than compensation, litigation and lost trust.
+There are two different things here, and they're easy to mix up.
 
-Legislation is moving the same way. Spain is preparing a law on the protection and resilience of critical entities, transposing Directive (EU) 2022/2557. Energy-sector entities designated as critical will have to assess their risks, natural hazards included, and keep a resilience plan. Failing to have one, or having one with serious shortcomings, could bring fines of up to €10 million or 2% of worldwide turnover.[^15]
+1. **The danger from the line itself.** A conductor that falls, or brushes against a tree, can set the vegetation alight. A live conductor on the ground can kill. Both get more dangerous the closer the house is: living 20 metres from a line isn't the same as living a kilometre away. And the consequences can be expensive:
+   - in California, fires started by power lines have become the central issue in utilities' planning;
+   - in Chile, a court ordered a distribution company to compensate the victims of a fire that started on a poorly maintained line;[^12]
+   - in Spain, an electricity company faced a €10 million bill for a fire started by one of its lines.[^13]
+
+2. **Who loses power.** That doesn't depend on distance from the line. It depends on how the network is laid out: on who is 'downstream' of the fault. A house right under a line can keep its power while a village three kilometres away loses it.
+
+**This book is about the first one:** who lives close to the source of danger, and how long help will take to reach them. The second would require knowing how the network is connected, and that data isn't public.
+
+And let me be clear from the start: when people in Spain talk about 'houses next to high-voltage lines', they almost always mean electromagnetic fields and health. This book doesn't deal with that.
+
+## Why it's in the companies' own interest
+
+After every major outage, the same question comes up: could it have been foreseen?
+
+The Spanish rules for high-voltage overhead lines, ITC-LAT 07, already require checks on trees that could fall onto the conductors. But the check is purely geometric: if the tree fell, would it reach the line or not?[^14] The rules don't say:
+
+- where people live near the line;
+- who among them is elderly or vulnerable;
+- how many minutes a fire crew would need to get there;
+- which section to inspect first.
+
+**That's the difference between complying with the rules and managing the risk.** If a company knows in advance where its lines run closest to homes and where help would take longest to arrive, it can prioritise tree work on those sections and warn the emergency services ahead of time. And it can show that it knows the risk and is managing it. That costs less than compensation, court cases and lost trust.
+
+The law is moving the same way. Spain is preparing a law on the protection and resilience of critical entities, transposing Directive (EU) 2022/2557. Energy facilities designated as critical will have to assess their risks, natural hazards included, and keep a resilience plan. No plan, or a plan with serious gaps, could mean fines of up to €10 million or 2% of worldwide turnover.[^15]
 
 ## What already exists
 
-In the United States, utilities draw up wildfire mitigation plans in which risk is calculated as probability multiplied by consequence. Consequence is modelled from building density and vegetation on a grid of cells roughly 200 metres across.[^16] These models, however, are proprietary and built for Californian wildfires.
+1. **United States.** Utilities draw up wildfire mitigation plans and calculate risk as probability multiplied by consequence. Consequence is modelled from building density and vegetation on a grid of cells about 200 metres across.[^16] But these models are closed, commercial and built for Californian wildfires.
 
-In Asturias, Red Eléctrica and the regional government agreed a protocol in 2024: de-energise lines when a fire breaks out, patrol line routes in fire-prone areas, and share the regional fire danger index.[^17] The region's new forest fire plan for 2026–2030 also looks at how long crews take to reach fires in each district.[^18] But that analysis starts from past fires, not from the homes that stand next to power lines.
+2. **Asturias.** In 2024, Red Eléctrica and the regional government agreed to de-energise lines in the event of a fire, inspect line corridors in fire-prone areas and share the fire danger index.[^17] The new forest fire plan for 2026–2030 works out how long it takes to reach a fire in each district.[^18] But it works that out from past fires, not from the homes that stand next to power lines.
 
-I looked for an open tool that, for any municipality, would answer both questions at once: which homes are close to overhead lines, and how long help takes to reach them, by day and by night. I found none.
+I looked for an open tool that, for any municipality, would answer both questions at once: which homes are close to overhead lines, and how long help takes to reach them, by day and by night. **I didn't find one.**
 
-## What we are going to build
+## What we're going to build
 
-So we are going to build one ourselves, from scratch, using QGIS and Python.
+So we're going to build it ourselves, from scratch, with QGIS and Python.
 
-We will give it the name of a municipality, and it will give us back:
+We give it the name of a municipality, and it gives us back:
+
 - the residential buildings, grouped by distance from the lines;
-- how many homes each contains and when it was built;
-- the modelled time a fire crew would need to reach each building, by day and by night;
-- the places where being close to a line coincides with a long wait for help;
-- a map that shows clearly where open data on power lines is complete and where it has gaps.
+- how many homes each one contains and when it was built;
+- how many minutes a fire crew would need to reach each building, by day and by night;
+- the places where a house is close to a line and help would take a long time to arrive;
+- a map of where open data on power lines is complete and where it has gaps.
 
-The tool does not claim that a house inside a line's safety clearance zone breaks the rules: it only flags it as a candidate for inspection. Its travel times come from a model that assumes clear roads; in a real storm they will be longer, never shorter. And it does not assess electromagnetic fields.
+**What the tool doesn't claim:**
 
-I will build it using Lena, a municipality in Asturias, as the example. You can follow the same path with your own municipality, in any country that has power lines, houses and roads. You can follow my code step by step, and wherever you need to substitute your own data, I will say so.
+- that a house inside a line's safety clearance zone breaks the rules – it only flags it as a candidate for inspection;
+- that its travel time is the real one – it assumes clear roads, so in a real storm it will be longer, never shorter;
+- anything about electromagnetic fields – it doesn't assess them.
 
-We will make the whole journey together. You will see how I reason, how I look for solutions and also where I go wrong, because there is no learning without mistakes. This book is not about PyQGIS – the way to drive QGIS with Python – for its own sake, but about using it to solve a real problem. I hope you come to enjoy PyQGIS as much as I do, and to see how beautiful the logic of code can be.
+I'll build it using Lena, a municipality (*concejo*) in Asturias, as the example. You can do the same for your own municipality, in any country that has power lines, houses and roads. Use my code, and I'll point out wherever you need to plug in your own data.
+
+You'll be with me the whole way. You'll see how I think, how I work things out and, of course, my mistakes – there's no learning without them.
+
+This book isn't about PyQGIS – the Python interface to QGIS – for its own sake. It's about using it to solve a real problem.
+
+I hope you'll come to love PyQGIS as much as I do, and see how beautiful the logic of code can be.
 
 ---
 
 ## Notes and sources
 
-[^tiepi]: TIEPI stands for *tiempo de interrupción equivalente de la potencia instalada*, or equivalent interruption time weighted by installed capacity. It does not count hours per customer; it weights each interruption by the capacity affected. In plain terms, it shows how many hours a year, on average, the capacity connected to the network spends without supply. It is published by type of area and by cause.
-[^1]: ENTSO-E, final report on the incident of 28 April 2025, March 2026. Summary in [Renewable Energy World](https://www.renewableenergyworld.com/power-grid/outage-management/final-entso-e-report-sheds-light-on-multiple-factors-that-caused-iberia-blackout).
+[^tiepi]: TIEPI stands for *tiempo de interrupción equivalente de la potencia instalada*: equivalent interruption time weighted by installed capacity. It doesn't count hours per customer; it weights each interruption by the capacity affected. It's published by type of area and by cause.
+[^1]: ENTSO-E, final report on the incident of 28 April 2025, March 2026. Summary in [*Renewable Energy World*](https://www.renewableenergyworld.com/power-grid/outage-management/final-entso-e-report-sheds-light-on-multiple-factors-that-caused-iberia-blackout).
 [^2]: [112 Asturias: coordination of electricity and telephone restoration, February 2018](https://www.112asturias.es/112-asturias-coordinara-actuaciones-para-restablecimiento-suministro-electrico-telefonico) (in Spanish).
 [^3]: [RTPA, 'Sin luz en hogares y negocios', 28 October 2018](https://www.rtpa.es/noticias-asturias:Sin-luz-en-hogares-y-negocios_111540715885.html) (in Spanish).
 [^4]: RTPA, 5 March 2011 (link to be added).
