@@ -14,10 +14,12 @@ project:
       children:
         - file: es/index.md
         - file: es/00-prologue.md
+        - file: es/01-what-we-want-to-know.md
     - title: English
       children:
         - file: en/index.md
         - file: en/00-prologue.md
+        - file: en/01-what-we-want-to-know.md
 site:
   template: book-theme
   options:

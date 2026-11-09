@@ -25,14 +25,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      # Same script as the local pre-commit hook, run on every tracked file.
       - name: Block Cyrillic text
-        run: |
-          if git ls-files -z | xargs -0 perl -CSD -ne 'if (/[\x{0400}-\x{04FF}]/) { print "$ARGV:$.: $_"; $found = 1 } close ARGV if eof; END { exit($found ? 1 : 0) }'; then
-            echo "No Cyrillic text in the repository."
-          else
-            echo "Cyrillic text found. Russian drafts stay in field-to-code-pyqgis-ru."
-            exit 1
-          fi
+        run: sh .githooks/pre-commit --all
       - uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
         with:

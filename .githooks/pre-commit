@@ -1,23 +1,36 @@
 #!/bin/sh
-# Block any Cyrillic text (U+0400-U+04FF) from entering the repository.
-# Checks staged file names and staged file contents.
+# Guard: no Cyrillic text in the repository (file names and contents).
+# Russian drafts live in the separate folder <repo>-ru/, which is not in git.
+#
+# Usage:
+#   .githooks/pre-commit         check files staged for commit (runs as the git hook)
+#   .githooks/pre-commit --all   check every tracked file (used by the publishing workflow)
+#
+# Enable once, from the repository folder:  git config core.hooksPath .githooks
+#
+# File names are read with -z, so names with non-ASCII characters are not
+# escaped by git. Images and other binary files are skipped: random bytes can
+# look like Cyrillic when decoded as UTF-8.
 
-status=0
-
-for file in $(git diff --cached --name-only --diff-filter=ACMR); do
-    if printf '%s' "$file" | perl -CS -ne 'exit(/[\x{0400}-\x{04FF}]/ ? 0 : 1)'; then
-        echo "Blocked: Cyrillic in file name: $file"
-        status=1
-        continue
-    fi
-    if git show ":$file" | perl -CSD -ne 'if (/[\x{0400}-\x{04FF}]/) { $found = 1; print "  line $.: $_" } END { exit($found ? 0 : 1) }' > /tmp/cyrillic_check.txt 2>/dev/null; then
-        echo "Blocked: Cyrillic text in $file"
-        head -5 /tmp/cyrillic_check.txt
-        status=1
-    fi
-done
-
-if [ $status -ne 0 ]; then
-    echo "Commit stopped. Russian text stays in field-to-code-pyqgis-ru."
+if [ "$1" = "--all" ]; then
+  list_cmd="git ls-files -z"
+  show_prefix="HEAD:"
+else
+  list_cmd="git diff --cached --name-only -z --diff-filter=ACMR"
+  show_prefix=":"
 fi
-exit $status
+
+$list_cmd | SHOW_PREFIX="$show_prefix" perl -0 -CSD -ne '
+  chomp; my $f = $_;
+  if ($f =~ /\p{Cyrillic}/) { print "Blocked: Cyrillic in file name: $f\n"; $bad = 1; next }
+  next if $f =~ /\.(png|jpe?g|gif|webp|pdf|zip|tiff?|ico)$/i;       # binary images and archives (SVG is text and is checked)
+  my $text = `git show "$ENV{SHOW_PREFIX}$f" 2>/dev/null`;
+  next if $text =~ /\0/;                                            # other binary files
+  my $n = 0;
+  for my $line (split /\n/, $text) {
+    $n++;
+    if ($line =~ /\p{Cyrillic}/) { print "Blocked: Cyrillic text in $f, line $n: $line\n"; $bad = 1; last }
+  }
+  END {
+    if ($bad) { print "Commit stopped. Russian text stays in the -ru folder.\n"; exit 1 }
+  }'
