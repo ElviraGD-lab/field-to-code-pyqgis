@@ -24,12 +24,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       # Same script as the local pre-commit hook, run on every tracked file.
       - name: Block Cyrillic text
         run: sh .githooks/pre-commit --all
-      - uses: actions/configure-pages@v5
-      - uses: actions/setup-node@v4
+      - uses: actions/configure-pages@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 22.x
       - name: Install MyST
@@ -37,9 +37,9 @@ jobs:
       - name: Build HTML
         working-directory: book
         run: myst build --html
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: book/_build/html
       - name: Deploy
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
