@@ -145,14 +145,14 @@ Ojalá acabes queriendo a PyQGIS tanto como nosotras y descubras la belleza de l
 
 ---
 
-## Notas y fuentes
+## Fuentes
 
 [^1]: ENTSO-E, informe final sobre el incidente del 28/04/2025, marzo de 2026; citado según [Renewable Energy World](https://www.renewableenergyworld.com/power-grid/outage-management/final-entso-e-report-sheds-light-on-multiple-factors-that-caused-iberia-blackout).
 [^2]: [112 Asturias: coordinación del restablecimiento del suministro eléctrico y telefónico, febrero de 2018](https://www.112asturias.es/112-asturias-coordinara-actuaciones-para-restablecimiento-suministro-electrico-telefonico).
 [^3]: [RTPA, «Sin luz en hogares y negocios», 28/10/2018](https://www.rtpa.es/noticias-asturias:Sin-luz-en-hogares-y-negocios_111540715885.html).
-[^4]: RTPA, 05/03/2011 (enlace pendiente).
-[^5]: MITECO, TIEPI/NIEPI 2003-2021 (enlace pendiente).
-[^6]: Consejo de Ministros, 19/01/2021 (enlace pendiente).
+[^4]: RTPA, 05/03/2011 (enlace pendiente: añadir en la revisión).
+[^5]: MITECO, TIEPI/NIEPI 2003-2021 (enlace pendiente: añadir en la revisión).
+[^6]: Consejo de Ministros, 19/01/2021 (enlace pendiente: añadir en la revisión).
 [^7]: [eldiario.es, Castilla-La Mancha, 09/01/2021](https://www.eldiario.es/castilla-la-mancha/municipios-electricidad-arboles-caidos-cubiertas-derrumbadas-cara-amarga-filomena-causa-estragos-castilla-mancha_1_6739083.html).
 [^8]: [The Irish Times, 15/02/2025](https://www.irishtimes.com/environment/2025/02/15/ella-mcsweeney-after-storm-eowyn-ireland-must-do-what-sweden-did-20-years-ago).
 [^9]: [Ofgem, Final report on the review into the networks' response to Storm Arwen, junio de 2022](https://www.ofgem.gov.uk/sites/default/files/2022-06/Final%20report%20on%20the%20review%20into%20the%20networks'%20response%20to%20Storm%20Arwen.pdf).

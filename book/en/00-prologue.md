@@ -37,7 +37,7 @@ Put the two reports side by side and the picture is the same:
 
 And it happens in the same mountain municipalities.
 
-The big lines take a hit too. In March 2011, near the Pajares Pass, on a stretch of line at around 1,800 metres, ice brought down a conductor on the 400 kV Soto–La Robla line, one of the main links between Asturias and León. The line had to be switched off.[^4]
+The big lines take a hit too. In March 2011, near the Pajares Pass, on a stretch of line at around 1,800 metres, ice brought down a conductor on the 400 kV Soto – La Robla line, one of the main links between Asturias and León. The line had to be switched off.[^4]
 
 ## Spain
 
@@ -69,13 +69,13 @@ And one more figure, from the European Environment Agency: roughly 6 in 10 power
 
 It's the first thing almost everyone asks. The short answer: underground costs more, is more complicated and takes longer to repair.
 
-1. **It costs more.** For 400 kV lines, underground cable costs €4–8 million per kilometre, and more than €10 million on difficult terrain. An overhead line costs €0.6–1 million in the countryside and €1.5–2 million in the mountains.[^11] In the countryside, one kilometre underground costs as much as 4–13 kilometres on poles and pylons.
+1. **It costs more.** For 400 kV lines, underground cable costs €4–8 million per kilometre, and more than €10 million on difficult terrain. An overhead line costs €0.6–1 million in the countryside and €1.5–2 million in the mountains.[^11] In the countryside, one kilometre underground costs as much as 4–13 kilometres on towers.
 
 2. **It's more complicated.** A long AC cable behaves like a huge capacitor. Beyond roughly 30–35 km it needs reactive power compensation – separate, expensive equipment whose only job is to make the cable work at all.[^11]
 
 3. **It takes longer to repair.** A broken overhead conductor can be seen from the road, and once crews can reach it, it's fixed in hours. A damaged cable has to be located and dug up, and a new section installed, which takes days or weeks.[^11]
 
-Asturias adds its terrain to all this: steep slopes, rock and narrow valleys that lines follow for tens of kilometres. Part of the network can go underground, as it did in Sweden. But most of it will stay on poles and pylons for a very long time.
+Asturias adds its terrain to all this: steep slopes, rock and narrow valleys that lines follow for tens of kilometres. Part of the network can go underground, as it did in Sweden. But most of it will stay on towers for a very long time.
 
 **So the question isn't how to get rid of overhead lines; it's how to live alongside them and know where the risk lies.**
 
@@ -145,14 +145,14 @@ We hope that along the way we'll come to love PyQGIS and see the beauty in the l
 
 ---
 
-## Notes and sources
+## Sources
 
 [^1]: ENTSO-E, final report on the incident of 28 April 2025, March 2026 – as reported by [Renewable Energy World](https://www.renewableenergyworld.com/power-grid/outage-management/final-entso-e-report-sheds-light-on-multiple-factors-that-caused-iberia-blackout).
 [^2]: [112 Asturias – coordination of the restoration of electricity and telephone services, February 2018](https://www.112asturias.es/112-asturias-coordinara-actuaciones-para-restablecimiento-suministro-electrico-telefonico).
 [^3]: [RTPA, 'Sin luz en hogares y negocios', 28 October 2018](https://www.rtpa.es/noticias-asturias:Sin-luz-en-hogares-y-negocios_111540715885.html).
-[^4]: RTPA, 5 March 2011 (link to be added).
-[^5]: MITECO, TIEPI/NIEPI 2003–2021 (link to be added).
-[^6]: Council of Ministers, 19 January 2021 (link to be added).
+[^4]: RTPA, 5 March 2011 (link to be added at proofreading).
+[^5]: MITECO, TIEPI/NIEPI 2003–2021 (link to be added at proofreading).
+[^6]: Council of Ministers, 19 January 2021 (link to be added at proofreading).
 [^7]: [eldiario.es, Castilla-La Mancha, 9 January 2021](https://www.eldiario.es/castilla-la-mancha/municipios-electricidad-arboles-caidos-cubiertas-derrumbadas-cara-amarga-filomena-causa-estragos-castilla-mancha_1_6739083.html).
 [^8]: [The Irish Times, 15 February 2025](https://www.irishtimes.com/environment/2025/02/15/ella-mcsweeney-after-storm-eowyn-ireland-must-do-what-sweden-did-20-years-ago).
 [^9]: [Ofgem, Final report on the review into the networks' response to Storm Arwen, June 2022](https://www.ofgem.gov.uk/sites/default/files/2022-06/Final%20report%20on%20the%20review%20into%20the%20networks'%20response%20to%20Storm%20Arwen.pdf).
