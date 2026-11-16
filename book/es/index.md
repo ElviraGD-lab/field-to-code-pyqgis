@@ -2,10 +2,21 @@
 title: "Del campo al código: PyQGIS desde cero"
 ---
 
-Construye una herramienta real y aprende a pensar como ingeniero.
+**Construye una herramienta de verdad y aprende a pensar como ingeniero**
 
-Este libro sigue un único problema real de principio a fin: qué viviendas están cerca de líneas eléctricas aéreas y cuánto tarda la ayuda en llegar hasta ellas, de día y de noche. Por el camino aprenderás Python y PyQGIS, pero sobre todo verás cómo piensa un ingeniero: cómo plantea el problema, cómo busca la herramienta adecuada, cómo comprueba cada paso y cuándo puede fiarse de un resultado.
+Este libro es para quien conoce bien QGIS pero nunca ha escrito una línea de código.
 
-Empieza por el [Prólogo](00-prologue.md).
+Vamos de un problema real a una herramienta terminada. El problema es este: qué edificios de viviendas están cerca de las líneas eléctricas aéreas y cuánto tarda en llegar la ayuda hasta ellos, de día y de noche.
 
-*Libro en elaboración. Los capítulos se publican a medida que se escriben.*
+Por el camino aprendemos Python y PyQGIS desde cero, dentro de QGIS, y solo lo que necesita la tarea. Pero lo más importante es que aprendemos a pensar como ingenieras:
+
+- cómo plantear la tarea;
+- cómo encontrar la herramienta adecuada;
+- cómo comprobar cada paso;
+- cuándo podemos fiarnos del resultado.
+
+Al final tendremos un plugin de QGIS que calcula la respuesta para cualquier municipio.
+
+Empezamos por el [Prólogo](00-prologue.md).
+
+*El libro se está escribiendo ahora. Las lecciones se publican a medida que están listas.*
