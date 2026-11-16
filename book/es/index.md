@@ -8,7 +8,7 @@ Este libro es para quien conoce bien QGIS pero nunca ha escrito una línea de c�
 
 Vamos de un problema real a una herramienta terminada. El problema es este: qué edificios de viviendas están cerca de las líneas eléctricas aéreas y cuánto tarda en llegar la ayuda hasta ellos, de día y de noche.
 
-Por el camino aprendemos Python y PyQGIS desde cero, dentro de QGIS, y solo lo que necesita la tarea. Pero lo más importante es que aprendemos a pensar como ingenieras:
+Por el camino aprendemos Python y PyQGIS desde cero, dentro de QGIS, y solo lo que necesita la tarea. Pero lo más importante es que aprendemos a pensar como ingeniero:
 
 - cómo plantear la tarea;
 - cómo encontrar la herramienta adecuada;

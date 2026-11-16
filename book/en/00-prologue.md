@@ -51,7 +51,7 @@ It's the first thing almost everyone asks. The short answer: underground is more
 2. **More complicated.** A long AC cable behaves like an enormous capacitor. Beyond roughly 30–35 km, it needs separate, expensive equipment, without which it simply won't work.
 3. **Slower to repair.** A broken overhead conductor can be seen from the road, and if crews can get to it, it's fixed within hours. A damaged cable has to be located and dug up, and a new section fitted – that takes days or weeks.
 
-Sweden showed that part of a network can go underground. But in mountains with steep slopes and narrow valleys, most lines will stay on pylons for a long time yet.
+Sweden showed that part of a network can go underground. But in mountains with steep slopes and narrow valleys, most lines will stay on towers for a long time yet.
 
 **So the question isn't how to get rid of overhead lines. It's how to live alongside them and know where the risk is.**
 
@@ -105,7 +105,7 @@ We don't know what numbers we'll get. We'll only find out once we've written the
 - we calculate travel times on clear roads, and in a real storm they'll be longer;
 - we don't assess electromagnetic fields.
 
-We'll work through the example of the municipality of Lena, which appears in both 2018 reports. The same path works for any municipality, in any country with power lines, homes and roads. Wherever you need to plug in your own data, we'll point it out.
+We'll work through the example of the municipality of Lena, which appears in both 2018 reports. The same path works for any municipality, in any country with power lines, homes and roads. Wherever we need to plug in our own data, we'll point it out.
 
 ## How we'll learn
 

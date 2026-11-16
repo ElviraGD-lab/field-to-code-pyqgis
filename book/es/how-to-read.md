@@ -28,7 +28,7 @@ Nada más. Tampoco hace falta saber Python de antes.
 2. **El objetivo del paso.** Qué queremos obtener y cómo sabremos si podemos fiarnos del resultado. Lo decidimos antes de escribir código. No adelantamos cifras: solo nos las da el código.
 3. **El código.** En fragmentos cortos, y después de cada uno, la explicación línea a línea: qué hace cada línea y de qué error nos protege.
 4. **Qué ha salido.** Miramos el resultado y lo comprobamos. De lo que salga depende el paso siguiente.
-5. **Si algo falla.** Los errores que nos encontramos nosotras y cómo dimos con su causa.
+5. **Si algo falla.** Los errores que nos encontramos nosotros y cómo dimos con su causa.
 6. **Tus datos.** Qué cambiar para calcular tu propio municipio.
 7. **Resumen de la lección.** Los términos nuevos, explicados, y el código nuevo, con lo que hace.
 8. **Ejercicios.** Tres ejercicios sobre la lección. Las soluciones de todos están en el último capítulo, «Soluciones de los ejercicios».
