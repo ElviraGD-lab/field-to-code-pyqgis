@@ -16,20 +16,20 @@ Este libro trata de la avería corriente.
 
 ## Asturias
 
-Febrero de 2018. Temporal con nieve: los árboles caen sobre las líneas y las laderas se deslizan. Unos 10 000 abonados se quedan sin luz:
+**Febrero de 2018.** Temporal con nieve: los árboles caen sobre las líneas y las laderas se deslizan. Unos 10 000 abonados se quedan sin luz:
 
 - unos 6000 clientes de EDP en Ibias, Tineo, Somiedo, Cangas del Narcea, Quirós y Laviana;
 - unos 2500 clientes de Viesgo en Mieres, Aller y Lena;
 - varios cientos en Los Oscos y Grandas de Salime[^2].
 
-Lo más importante del parte del 112 cabe en una frase. Las compañías explican por qué la reparación va lenta: las carreteras y los puertos están cerrados por la nieve. **Para reparar una línea, primero hay que llegar hasta ella.**
+Lo más importante del parte del 112 cabe en una frase. Las compañías explican por qué la reparación va lenta: las carreteras y los puertos están cortados por la nieve, los árboles caídos y los argayos. **Para reparar una línea, primero hay que llegar hasta ella.**
 
-Octubre de 2018. Nieve húmeda, y los árboles todavía con hoja. En el peor momento hay unos 15 000 hogares sin luz; por la tarde, todavía unos 13 500. La lista de concejos es casi la misma: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. En total, 169 incidencias, y los árboles caídos cortan carreteras en 17 concejos[^3].
+**Octubre de 2018.** Nieve húmeda. En el peor momento hay unos 15 000 hogares sin luz; por la tarde, todavía unos 13 500. La lista de concejos es casi la misma: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. En total, 169 incidencias por árboles caídos sobre las carreteras, en 17 concejos[^3].
 
 Si ponemos los dos partes uno al lado del otro, el cuadro es el mismo:
 
-1. **Los árboles caen sobre los conductores** y se va la luz.
-2. **Los árboles caen sobre las carreteras** y la ayuda no puede llegar.
+1. **El temporal rompe las líneas** y se va la luz.
+2. **Los árboles y la nieve cortan las carreteras** y la ayuda no puede llegar.
 
 Y siempre en los mismos concejos de montaña.
 
@@ -39,7 +39,7 @@ Y siempre en los mismos concejos de montaña.
 
 1. **Suecia, 2005, borrasca Gudrun.** Unos 250 millones de árboles derribados y unas 700 000 personas sin luz, algunas hasta 35 días. Después de aquello, Suecia empezó a soterrar las líneas de distribución que atravesaban bosques[^4].
 2. **Reino Unido, 2021, borrasca Arwen.** Más de un millón de abonados sin luz; unos 40 000, más de tres días, y casi 4000, más de una semana. Casi todos los daños los causaron árboles y ramas. El regulador, Ofgem, descubrió dos cosas. El dinero de poda y tala se destinaba a cumplir la normativa, no a que la red aguantara la borrasca. Y las compañías no sabían de antemano dónde vivían sus clientes más vulnerables[^5].
-3. **Portugal, 2026, borrasca Kristin.** Más de un millón de abonados sin luz y más de 6000 km de red de distribución dañados. Dos semanas después, unas 30 000 personas seguían sin electricidad. Reparar la red le costó a la distribuidora E-REDES unos 110 millones de euros. Es más o menos un 2 % del daño total, que se estimó en 5300 millones. Solo estaba asegurado el 26 %[^6].
+3. **Portugal, 2026, borrasca Kristin.** Más de un millón de abonados sin luz y más de 6000 km de red de distribución afectados. Dos semanas después, unos 30 000 abonados seguían sin electricidad. Reparar la red le costó a la distribuidora E-REDES unos 110 millones de euros. Es más o menos un 2 % del daño total, que se estimó en 5300 millones. Solo estaba asegurado el 26 %[^6].
 
 La Agencia Europea de Medio Ambiente añade un dato: unos 6 de cada 10 fallos del suministro eléctrico provocan a su vez fallos en otros sectores, sobre todo en las telecomunicaciones[^6]. **Se va la luz y, poco después, también se queda mudo el teléfono con el que pedimos ayuda.**
 

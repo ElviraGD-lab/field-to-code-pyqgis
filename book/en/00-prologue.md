@@ -16,20 +16,20 @@ This book is about the ordinary outage.
 
 ## Asturias
 
-February 2018. A snowstorm: trees fall on power lines, slopes slide. Around 10,000 customers are left without power:
+**February 2018.** A snowstorm: trees fall on power lines, slopes slide. Around 10,000 customers are left without power:
 
 - about 6,000 EDP customers in Ibias, Tineo, Somiedo, Cangas del Narcea, Quirós and Laviana;
 - about 2,500 Viesgo customers in Mieres, Aller and Lena;
 - several hundred in Los Oscos and Grandas de Salime.[^2]
 
-The key point in the 112 emergency service's report is a single sentence. The companies explain why repairs are slow: roads and mountain passes are closed by snow. **Before anyone can repair a line, they have to get to it.**
+The key point in the 112 emergency service's report is a single sentence. The companies explain why repairs are slow: roads and mountain passes are blocked by snow, fallen trees and landslides. **Before anyone can repair a line, they have to get to it.**
 
-October 2018. Wet snow, and the trees are still in leaf. At the peak, around 15,000 homes are without power; by evening, around 13,500 still are. The list of municipalities is almost the same: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. There are 169 incidents in all, and fallen trees block roads in 17 municipalities.[^3]
+**October 2018.** Wet snow. At the peak, around 15,000 homes are without power; by evening, around 13,500 still are. The list of municipalities is almost the same: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. There are 169 incidents of trees down across roads in all, in 17 municipalities.[^3]
 
 Put the two reports side by side and the picture is the same:
 
-1. **Trees fall on lines** – the power goes off.
-2. **Trees fall on roads** – help can't get through.
+1. **Storms bring lines down** – the power goes off.
+2. **Trees and snow block the roads** – help can't get through.
 
 And it happens in the same mountain municipalities.
 
@@ -39,7 +39,7 @@ And it happens in the same mountain municipalities.
 
 1. **Sweden, 2005, Storm Gudrun.** Around 250 million trees blown down, and about 700,000 people without power, some for up to 35 days. Afterwards, Sweden began putting its distribution lines in forests underground.[^4]
 2. **United Kingdom, 2021, Storm Arwen.** More than a million customers without power, about 40,000 of them for over three days and nearly 4,000 for over a week. Almost all the damage came from trees and branches. The regulator, Ofgem, found two things. The money for tree work had gone on meeting the rules, not on making the network able to withstand a storm. And the companies hadn't known in advance where their most vulnerable customers lived.[^5]
-3. **Portugal, 2026, Storm Kristin.** More than a million customers without power, and over 6,000 km of distribution network damaged. Two weeks later, about 30,000 people were still without electricity. Repairing the network cost the company E-REDES about €110 million. That's roughly a fiftieth of the total damage, which was estimated at €5.3 billion. Only 26% of it was insured.[^6]
+3. **Portugal, 2026, Storm Kristin.** More than a million customers without power, and over 6,000 km of distribution network affected. Two weeks later, about 30,000 customers were still without electricity. Repairing the network cost the company E-REDES about €110 million. That's roughly a fiftieth of the total damage, which was estimated at €5.3 billion. Only 26% of it was insured.[^6]
 
 The European Environment Agency adds that about 6 in 10 power failures cause knock-on failures in other sectors, most often telecoms.[^6] **The lights go out, and soon the phone people would use to call for help goes quiet too.**
 
