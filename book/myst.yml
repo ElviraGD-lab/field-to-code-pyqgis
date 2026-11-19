@@ -16,11 +16,19 @@ project:
         - file: es/index.md
         - file: es/how-to-read.md
         - file: es/00-prologue.md
+        - title: "Capítulo 1. Qué construimos"
+          children:
+            - file: es/01-1-specification.md
+        - file: es/solutions.md
     - title: English
       children:
         - file: en/index.md
         - file: en/how-to-read.md
         - file: en/00-prologue.md
+        - title: "Chapter 1: What we're building"
+          children:
+            - file: en/01-1-specification.md
+        - file: en/solutions.md
 site:
   template: book-theme
   options:

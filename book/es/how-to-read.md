@@ -2,7 +2,6 @@
 title: "Cómo leer este libro"
 ---
 
-
 ## Qué hace falta
 
 1. **Un ordenador** con Windows, macOS o Linux.
@@ -20,19 +19,20 @@ Nada más. Tampoco hace falta saber Python de antes.
 3. después, la distancia de las casas a las líneas y el tiempo que tarda en llegar la ayuda;
 4. y al final, la herramienta terminada.
 
-**Una lección, un paso.** Cada lección lleva más o menos una hora: unos veinte minutos de lectura y el resto, trabajo en QGIS.
+**Una lección, un paso.** Cada lección lleva más o menos una hora: unos veinte minutos de lectura y el resto, trabajo en QGIS. Si un paso es complicado, el capítulo tiene más lecciones.
 
 ## Cómo es una lección
 
 1. **Dónde lo dejamos.** Un repaso breve, para no tener que volver atrás.
-2. **El objetivo del paso.** Qué queremos obtener y cómo sabremos si podemos fiarnos del resultado. Lo decidimos antes de escribir código. No adelantamos cifras: solo nos las da el código.
+2. **Qué queremos entender.** La pregunta de la lección, qué esperamos ver y cómo sabremos si nos hemos equivocado. Lo decidimos antes de escribir código. No adelantamos cifras: solo nos las da el cálculo.
 3. **El código.** En fragmentos cortos, y después de cada uno, la explicación línea a línea: qué hace cada línea y de qué error nos protege.
-4. **Qué ha salido.** Miramos el resultado y lo comprobamos. De lo que salga depende el paso siguiente.
+4. **Qué ha salido.** Comparamos el resultado con lo que esperábamos. Si no coincide, eso también es un resultado del proyecto. De lo que salga depende el paso siguiente.
 5. **Si algo falla.** Los errores que nos encontramos nosotros y cómo dimos con su causa.
 6. **Tus datos.** Qué cambiar para calcular tu propio municipio.
-7. **Resumen de la lección.** Los términos nuevos, explicados, y el código nuevo, con lo que hace.
-8. **Ejercicios.** Tres ejercicios sobre la lección. Las soluciones de todos están en el último capítulo, «Soluciones de los ejercicios».
-9. **La pregunta abierta.** Por donde empezará la lección siguiente.
+7. **Resumen de la lección.** Los conceptos nuevos, explicados, el código nuevo, con lo que hace, y lo más importante.
+8. **Preguntas para un ingeniero.** Dos o tres preguntas para comprobar que lo hemos entendido. La respuesta está justo debajo de cada pregunta: primero piénsala tú y luego compárala.
+9. **Ejercicios.** Tres ejercicios cortos para fijar lo aprendido. Las soluciones de todos están al final del libro, en «Soluciones de los ejercicios», y debajo de cada ejercicio hay un enlace.
+10. **La pregunta abierta.** Por donde empezará la lección siguiente.
 
 ## Cómo trabajar con el código
 

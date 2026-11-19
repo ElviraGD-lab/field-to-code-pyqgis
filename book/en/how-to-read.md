@@ -20,19 +20,20 @@ That's all. You don't need to know any Python beforehand either.
 3. then the distance from homes to lines, and the time it takes help to arrive;
 4. and finally, the finished tool.
 
-**One lesson is one step.** A lesson takes about an hour: around twenty minutes of reading, and the rest of the time working in QGIS.
+**One lesson is one step.** A lesson takes about an hour: around twenty minutes of reading, and the rest of the time working in QGIS. If a step is a hard one, the chapter gets more lessons.
 
 ## How a lesson works
 
 1. **Where we left off.** A short recap, so there's no need to flick back.
-2. **The task for this step.** What we want to get, and how we'll know we can trust the result. We decide this before writing any code. We don't name any numbers in advance: only the code gives us those.
+2. **What we want to find out.** The question for the lesson, what we expect to see, and how we'll know if we've got it wrong. We decide this before writing any code. We don't name any numbers in advance: only the calculation gives us those.
 3. **The code.** In short pieces, each followed by a line-by-line explanation: what the line does and which mistake it protects us from.
-4. **What we got.** We look at the result and check it. What we get decides the next step.
+4. **What we got.** We compare the result with what we expected. If it doesn't match, that's a result too – it's part of the work on the project. What we get decides the next step.
 5. **If something goes wrong.** The mistakes we actually made, and how we found their cause.
 6. **Your data.** What to change to run it for your own municipality.
-7. **Lesson summary.** New terms with explanations, and the new code with a note on what it does.
-8. **Exercises.** Three exercises on the lesson. The answers to all of them are in the last chapter, 'Answers to the exercises'.
-9. **Open question.** Where the next lesson begins.
+7. **Lesson summary.** New concepts with explanations, the new code with a note on what it does, and the key points.
+8. **Questions for an engineer.** Two or three questions to check your understanding. The answer sits right under each question: think it through first, then check.
+9. **Exercises.** Three short exercises to help it stick. The answers to all of them are at the end of the book, in 'Answers to the exercises', and there's a link under every exercise.
+10. **Open question.** Where the next lesson begins.
 
 ## Working with the code
 
