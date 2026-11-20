@@ -145,20 +145,20 @@ Un resultado que no se puede comprobar no le sirve a la distribuidora. Por eso l
 
 ## Etapas del trabajo
 
-Del pliego sale el orden de trabajo del proyecto. Cada etapa es un capítulo:
+Del pliego sale el orden de trabajo del proyecto. Cada etapa es un capítulo, a partir del segundo (el primero es este pliego):
 
-1. El límite del municipio y el primer script.
-2. Las líneas eléctricas.
-3. La tensión y la franja de seguridad.
-4. ¿Podemos fiarnos de los datos de líneas?
-5. Los edificios residenciales.
-6. Quién vive junto a las líneas.
-7. Cuánto tarda en llegar la ayuda.
-8. Por dónde empezar la revisión.
-9. Los rásteres.
-10. Del script a la herramienta.
-11. La comprobación de la herramienta.
-12. El resultado para la distribuidora: un plugin de QGIS.
+2. El límite del municipio y el primer script.
+3. Las líneas eléctricas.
+4. La tensión y la franja de seguridad.
+5. ¿Podemos fiarnos de los datos de líneas?
+6. Los edificios residenciales.
+7. Quién vive junto a las líneas.
+8. Cuánto tarda en llegar la ayuda.
+9. Por dónde empezar la revisión.
+10. Los rásteres.
+11. Del script a la herramienta.
+12. La comprobación de la herramienta.
+13. El resultado para la distribuidora: un plugin de QGIS.
 
 :::{admonition} Tus datos
 Para tu municipio, cambia en la entrada:
@@ -199,7 +199,7 @@ El parque de bomberos más cercano y la carretera más rápida pueden quedar al 
 2. **La distribuidora pide una sola lista de casas ordenada por distancia a la línea. ¿Qué le faltará?**
 
 :::{dropdown} Respuesta
-Planifica su trabajo por tramos de línea, no por casas. Y necesita el tiempo de llegada: una casa junto a una línea cerca de un parque de bomberos es menos urgente que la misma casa a una hora de camino. Por eso el resultado son tramos con su clase según la matriz.
+Planifica su trabajo por tramos de línea, no por casas. Y necesita el tiempo de viaje: una casa junto a una línea cerca de un parque de bomberos es menos urgente que la misma casa a una hora de camino. Por eso el resultado son tramos con su clase según la matriz.
 :::
 
 3. **¿Por qué las reglas de comprobación se guardan en el repositorio antes del cálculo?**

@@ -6,6 +6,9 @@ Book 1 of the *From Field to Code* series. Written in Spanish and English.
 
 > Status: work in progress (started November 2026).
 
+- Read the book: https://elviragd-lab.github.io/field-to-code-pyqgis/
+- The whole series: https://elviragd-lab.github.io
+
 ## What you build
 
 A QGIS 4 Processing algorithm that answers one question for any municipality: which residential buildings stand close to overhead power lines, and how long fire crews take to reach them, by day and by night. The worked example is Lena, in Asturias (Spain).

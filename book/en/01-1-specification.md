@@ -145,20 +145,20 @@ A result that can't be checked is no use to a company. That's why we write down 
 
 ## Stages of the work
 
-The specification gives us the order of work on the project. Each stage is a chapter of its own:
+The specification gives us the order of work on the project. Each stage is a chapter of its own, from chapter 2 on (chapter 1 is this specification):
 
-1. The municipal boundary and our first script.
-2. Power lines.
-3. Voltage and the safety strip.
-4. Can we trust the line data?
-5. Residential buildings.
-6. Who lives near the lines.
-7. How quickly help arrives.
-8. Where to start inspecting.
-9. Rasters.
-10. From script to tool.
-11. Testing the tool.
-12. The result for the company: a QGIS plugin.
+2. The municipal boundary and our first script.
+3. Power lines.
+4. Voltage and the safety strip.
+5. Can we trust the line data?
+6. Residential buildings.
+7. Who lives near the lines.
+8. How quickly help arrives.
+9. Where to start inspecting.
+10. Rasters.
+11. From script to tool.
+12. Testing the tool.
+13. The result for the company: a QGIS plugin.
 
 :::{admonition} Your data
 For our own municipality, we replace these inputs:
