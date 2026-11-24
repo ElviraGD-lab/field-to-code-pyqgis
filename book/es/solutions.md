@@ -63,3 +63,79 @@ Con un margen alrededor.
 :::{dropdown} Solución
 Para que en el código no quede nada que solo valga para Lena. Si no, en otro municipio la herramienta calculará mal en silencio y no mostrará ningún error.
 :::
+
+## Lección 2.1. Las primeras líneas en Python: números, texto, variables, listas y diccionarios
+
+[Volver a la lección](02-1-python-values.md)
+
+(es-sol-2-1-1)=
+### Ejercicio 1
+
+**Recordar.** ¿Qué signos crean una lista y cuáles un diccionario?
+
+:::{dropdown} Solución
+La lista, los corchetes `[ ]`; el diccionario, las llaves `{ }`.
+:::
+
+(es-sol-2-1-2)=
+### Ejercicio 2
+
+**Corregir.** Este código tiene un error. Vamos a encontrarlo:
+
+```python
+margin_km = 1,5
+```
+
+:::{dropdown} Solución
+La parte decimal va separada con una coma, y Python obtendrá dos números, 1 y 5. Lo correcto es: `margin_km = 1.5`.
+:::
+
+(es-sol-2-1-3)=
+### Ejercicio 3
+
+**Recordar la lección 1.2.** ¿Qué tres números guardamos para cada edificio para poder comparar casas junto a líneas de distinta tensión?
+
+:::{dropdown} Solución
+La distancia al eje de la línea, la semianchura de la franja de seguridad y la distancia al borde de la franja.
+:::
+
+## Lección 2.2. Python toma decisiones y repite el trabajo: condición, bucle, función y módulo
+
+[Volver a la lección](02-2-python-decisions.md)
+
+(es-sol-2-2-1)=
+### Ejercicio 1
+
+**Recordar.** ¿En qué se diferencian `=` y `==`?
+
+:::{dropdown} Solución
+`=` guarda un valor con un nombre; `==` pregunta si dos valores son iguales y responde `True` o `False`.
+:::
+
+(es-sol-2-2-2)=
+### Ejercicio 2
+
+**Corregir.** Este bucle tiene dos errores. Vamos a encontrarlos:
+
+```python
+for voltage in voltages
+print(voltage)
+```
+
+:::{dropdown} Solución
+Faltan los dos puntos al final de la primera línea y falta la sangría en la segunda. Lo correcto es:
+
+```python
+for voltage in voltages:
+    print(voltage)
+```
+:::
+
+(es-sol-2-2-3)=
+### Ejercicio 3
+
+**Recordar la lección 1.1.** ¿Quiénes son los tres usuarios de nuestra herramienta?
+
+:::{dropdown} Solución
+La distribuidora, los bomberos y el 112, y el ayuntamiento.
+:::

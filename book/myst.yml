@@ -20,6 +20,10 @@ project:
           children:
             - file: es/01-1-specification.md
             - file: es/01-2-calculation-and-checks.md
+        - title: "Capítulo 2. Introducción a Python y a PyQGIS"
+          children:
+            - file: es/02-1-python-values.md
+            - file: es/02-2-python-decisions.md
         - file: es/solutions.md
     - title: English
       children:
@@ -30,6 +34,10 @@ project:
           children:
             - file: en/01-1-specification.md
             - file: en/01-2-calculation-and-checks.md
+        - title: "Chapter 2: Introduction to Python and PyQGIS"
+          children:
+            - file: en/02-1-python-values.md
+            - file: en/02-2-python-decisions.md
         - file: en/solutions.md
 site:
   template: book-theme

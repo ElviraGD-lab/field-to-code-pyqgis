@@ -63,3 +63,79 @@ With a margin around it.
 :::{dropdown} Answer
 So that nothing is left in the code that only holds true for Lena. Otherwise, in another municipality, the tool will quietly calculate the wrong answer and show no error.
 :::
+
+## Lesson 2.1: Our first lines of Python: numbers, text, variables, lists and dictionaries
+
+[Back to the lesson](02-1-python-values.md)
+
+(en-sol-2-1-1)=
+### Exercise 1
+
+**Recall.** Which brackets create a list, and which create a dictionary?
+
+:::{dropdown} Answer
+A list uses square brackets `[ ]`, and a dictionary uses curly brackets `{ }`.
+:::
+
+(en-sol-2-1-2)=
+### Exercise 2
+
+**Fix it.** There's a mistake in this code. Let's find it:
+
+```python
+margin_km = 1,5
+```
+
+:::{dropdown} Answer
+The decimal part is separated by a comma, so Python gets two numbers, 1 and 5. The correct version is `margin_km = 1.5`.
+:::
+
+(en-sol-2-1-3)=
+### Exercise 3
+
+**Back to lesson 1.2.** Which three numbers do we store for each building so we can compare homes near lines of different voltages?
+
+:::{dropdown} Answer
+The distance to the centre line, the half-width of the safety strip, and the distance to the edge of the strip.
+:::
+
+## Lesson 2.2: Python makes decisions and repeats work: conditions, loops, functions and modules
+
+[Back to the lesson](02-2-python-decisions.md)
+
+(en-sol-2-2-1)=
+### Exercise 1
+
+**Recall.** What's the difference between `=` and `==`?
+
+:::{dropdown} Answer
+`=` puts a value under a name; `==` asks whether two values are equal and answers `True` or `False`.
+:::
+
+(en-sol-2-2-2)=
+### Exercise 2
+
+**Fix it.** There are two mistakes in this loop. Let's find them:
+
+```python
+for voltage in voltages
+print(voltage)
+```
+
+:::{dropdown} Answer
+There's no colon at the end of the first line, and no indent on the second. The correct version is:
+
+```python
+for voltage in voltages:
+    print(voltage)
+```
+:::
+
+(en-sol-2-2-3)=
+### Exercise 3
+
+**Back to lesson 1.1.** Who are the three users of our tool?
+
+:::{dropdown} Answer
+The distribution company, fire crews and the 112 emergency service, and the municipality.
+:::
