@@ -2,46 +2,55 @@
 title: "Cómo leer este libro"
 ---
 
-## Qué hace falta
+## Qué nos hará falta
 
 1. **Un ordenador** con Windows, macOS o Linux.
-2. **QGIS 4.2 o posterior.** QGIS 4.2 es la primera versión de la serie 4 con soporte a largo plazo (LTR). Se descarga en [qgis.org](https://qgis.org). No hace falta instalar Python aparte: ya viene dentro de QGIS.
-3. **Internet.** Todos los datos son abiertos y los descargamos sobre la marcha.
+2. **QGIS 4.2 o posterior.** Se descarga gratis en qgis.org. La versión 4.2 es la primera de la serie 4 con soporte a largo plazo: recibirá correcciones y actualizaciones durante varios años. No hace falta instalar Python aparte, porque ya viene dentro de QGIS.
+3. **Internet.** Todos los datos del libro son abiertos. Los descargamos sobre la marcha.
 
-Nada más. Tampoco hace falta saber Python de antes.
+Y ya está. No hace falta saber Python de antes. Basta con lo que ya sabemos hacer: trabajar en QGIS con el ratón.
 
 ## Cómo está organizado el libro
 
-**Un capítulo, una etapa del proyecto.** Los capítulos van en orden y el proyecto crece paso a paso:
+El libro sigue el mismo orden en el que crece nuestro proyecto.
 
-1. primero, el límite del municipio;
-2. luego, las líneas eléctricas y las casas;
-3. después, la distancia de las casas a las líneas y el tiempo que tarda en llegar la ayuda;
-4. y al final, la herramienta terminada.
+1. **Primero, el prólogo y el pliego de condiciones.** Vemos cuál es el problema y decidimos qué tiene que saber hacer exactamente nuestra herramienta. Aquí todavía no hay código.
+2. **Después, el capítulo 2, de introducción:** «Introducción a Python» e «Introducción a PyQGIS». En ellos está solo lo más básico: de qué se compone el código y cómo es QGIS por dentro. Sin esto, más adelante no se entendería por qué el código está escrito precisamente así.
+3. **Luego, los capítulos del proyecto, a partir del capítulo 3.** Un capítulo, una etapa del trabajo: el límite del municipio, las líneas eléctricas, las casas, las distancias, el tiempo de viaje, etcétera. Al final de cada capítulo tenemos un resultado nuevo.
+4. **Al final, la herramienta terminada.** Un plugin de QGIS que lo calcula todo para cualquier municipio.
 
-**Una lección, un paso.** Cada lección lleva más o menos una hora: unos veinte minutos de lectura y el resto, trabajo en QGIS. Si un paso es complicado, el capítulo tiene más lecciones.
+**Una lección, un paso.** Los pasos son pequeños. Si un paso resulta complicado, no lo comprimimos: lo repartimos en varias lecciones.
 
 ## Cómo es una lección
 
+Todas las lecciones tienen las mismas partes. Así es más fácil orientarse: siempre sabemos dónde estamos y qué viene después.
+
 1. **Dónde lo dejamos.** Un repaso breve, para no tener que volver atrás.
-2. **Qué queremos entender.** La pregunta de la lección, qué esperamos ver y cómo sabremos si nos hemos equivocado. Lo decidimos antes de escribir código. No adelantamos cifras: solo nos las da el cálculo.
-3. **El código.** En fragmentos cortos, y después de cada uno, la explicación línea a línea: qué hace cada línea y de qué error nos protege.
-4. **Qué ha salido.** Comparamos el resultado con lo que esperábamos. Si no coincide, eso también es un resultado del proyecto. De lo que salga depende el paso siguiente.
+2. **Qué queremos entender.** La pregunta de la lección. Ahí mismo anotamos qué esperamos ver y cómo sabremos si nos hemos equivocado. Esto lo decidimos antes del código. No adelantamos cifras: solo nos las dará el cálculo.
+3. **Los pasos.** Todos siguen el mismo esquema:
+   - primero, con palabras, qué queremos hacer;
+   - luego, unas pocas líneas de código;
+   - después, el repaso: qué hace cada línea;
+   - y por qué está escrita precisamente así: de dónde sale cada nombre y dónde podemos encontrarlo por nuestra cuenta.
+4. **Qué ha salido.** Comparamos el resultado con lo que esperábamos. Si no coincide, eso también es un resultado, y averiguamos por qué ha pasado.
 5. **Si algo falla.** Los errores que nos encontramos nosotros y cómo dimos con su causa.
-6. **Tus datos.** Qué cambiar para calcular tu propio municipio.
-7. **Resumen de la lección.** Los conceptos nuevos, explicados, el código nuevo, con lo que hace, y lo más importante.
-8. **Preguntas para un ingeniero.** Dos o tres preguntas para comprobar que lo hemos entendido. La respuesta está justo debajo de cada pregunta: primero piénsala tú y luego compárala.
-9. **Ejercicios.** Tres ejercicios cortos para fijar lo aprendido. Las soluciones de todos están al final del libro, en «Soluciones de los ejercicios», y debajo de cada ejercicio hay un enlace.
-10. **La pregunta abierta.** Por donde empezará la lección siguiente.
+6. **Tus datos.** Qué cambiar para calcular nuestro propio municipio.
+7. **Resumen.** Los conceptos nuevos, el código nuevo y lo esencial.
+8. **Secretos del programador.** Cómo encontrar o recordar por nuestra cuenta el comando que necesitamos cuando no tenemos el libro a mano.
+9. **Preguntas para un ingeniero.** Dos o tres preguntas para comprobar que lo hemos entendido. La respuesta está justo debajo de cada pregunta. Mejor pensarla primero y abrir la respuesta después.
+10. **Ejercicios.** Tres ejercicios cortos para fijar lo aprendido. Las soluciones están al final del libro, en «Soluciones de los ejercicios», y debajo de cada ejercicio hay un enlace.
+11. **La pregunta abierta.** Con ella empieza la lección siguiente.
 
 ## Cómo trabajar con el código
 
-**Teclea el código a mano, no lo copies.** Así la mano y la cabeza lo recuerdan antes. Si no funciona, compáralo con el libro letra a letra: casi siempre la culpa es de un paréntesis o unas comillas que faltan.
+**Tecleamos el código a mano, no lo copiamos.** Así se recuerda antes: la mano retiene lo que la cabeza todavía no ha tenido tiempo de entender.
 
-**Equivocarse es normal.** Python nos dice en qué línea y qué ha ido mal. Desde la primera lección aprendemos a leer esos mensajes.
+**Equivocarse es normal.** Si el código no funciona, primero lo comparamos con el libro letra a letra. Casi siempre la culpa es de un paréntesis, unas comillas o un espacio al principio de la línea que faltan. Python siempre dice en qué línea está el error y qué ha ido mal. Desde la primera lección aprendemos a leer esos mensajes.
 
-**Todo el código del libro es abierto.** Puedes cogerlo, cambiarlo y usarlo en tu trabajo con la licencia Apache-2.0. El texto del libro se publica con licencia CC BY 4.0.
+**Las teclas.** En el libro las teclas se indican para Windows y Linux. En macOS, en lugar de Ctrl solemos pulsar Cmd, y en lugar de Alt, Option.
+
+**Todo el código del libro es abierto.** Se puede coger, cambiar y usar en el trabajo con la licencia Apache 2.0. El texto y las figuras del libro se publican con licencia CC BY 4.0.
 
 ## Si algo no funciona
 
-QGIS se actualiza y los datos de internet a veces cambian de sitio. Si un código del libro ha dejado de funcionar o has encontrado un error, escríbenos en la página del proyecto en GitHub (en la sección [Issues](https://github.com/ElviraGD-lab/field-to-code-pyqgis/issues)). Así el libro mejora para todos.
+QGIS se actualiza, y los datos de internet a veces cambian de dirección. Si un código del libro ha dejado de funcionar o encontramos un error, podemos escribirlo en la página del proyecto en GitHub, en la sección Issues. Allí mismo se explica qué hay que indicar para que el error sea fácil de localizar. Así el libro mejora para todos.

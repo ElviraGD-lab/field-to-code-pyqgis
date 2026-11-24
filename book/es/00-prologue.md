@@ -2,54 +2,64 @@
 title: "Prólogo. Cuando se va la luz"
 ---
 
-## 28 de abril de 2025
+Antes de escribir código hay que entender el problema: qué ha pasado, a quién afecta y qué queremos calcular exactamente. Si no, es fácil hacer un cálculo correcto que responde a otra pregunta.
 
-A las 12:33, España y Portugal se quedan sin electricidad. Toda la península a la vez.
+Por eso no empezamos por QGIS, sino por lo que pasa cuando se va la luz.
 
-Se paran los trenes y el metro, se apagan los semáforos, dejan de funcionar los cajeros y las cajas. Por la tarde, las baterías de respaldo de las antenas empiezan a agotarse y se va la cobertura móvil.
+## Una avería que ocurre pocas veces
+
+**28 de abril de 2025, a las 12:33.** Toda España y Portugal se quedan sin electricidad: toda la península a la vez.
+
+Se paran los trenes y el metro. Se apagan los semáforos. Dejan de funcionar los cajeros y las cajas. Por la tarde, las baterías de respaldo de las antenas empiezan a agotarse, y la cobertura móvil empieza a fallar.
 
 Casi un año después, ENTSO-E, la asociación de los gestores europeos de redes de transporte, publicó su análisis final. Ni un temporal, ni un incendio, ni un árbol caído: nada de eso tuvo que ver. Hubo varias causas, y la principal fue que el sistema no logró mantener la tensión. Los generadores se desconectaron uno tras otro y en cuestión de segundos la red se vino abajo[^1].
 
-**Un apagón así es raro.** Llegó con el cielo despejado y nos afectó a todos a la vez. Una avería corriente funciona de otra manera: llega con el mal tiempo, empieza en un sitio concreto y dura más. Y para quien la sufre es más peligrosa.
+**Una avería así es rara.** Llegó con el cielo despejado y nos afectó a todos a la vez.
 
-Este libro trata de la avería corriente.
+**Una avería corriente funciona de otra manera.** Llega con el mal tiempo, empieza en un sitio concreto y dura más. Y para quien la sufre es más peligrosa. Este libro trata de la avería corriente.
 
-## Asturias
+## Una avería corriente: Asturias, 2018
 
-**Febrero de 2018.** Temporal con nieve: los árboles caen sobre las líneas y las laderas se deslizan. Unos 10 000 abonados se quedan sin luz:
+Veamos dos partes de Asturias.
+
+**Febrero de 2018.** Temporal con nieve. Los árboles caen sobre las líneas y las laderas se deslizan. Unos 10 000 abonados se quedan sin luz:
 
 - unos 6000 clientes de EDP en Ibias, Tineo, Somiedo, Cangas del Narcea, Quirós y Laviana;
 - unos 2500 clientes de Viesgo en Mieres, Aller y Lena;
 - varios cientos en Los Oscos y Grandas de Salime[^2].
 
-Lo más importante del parte del 112 cabe en una frase. Las compañías explican por qué la reparación va lenta: las carreteras y los puertos están cortados por la nieve, los árboles caídos y los argayos. **Para reparar una línea, primero hay que llegar hasta ella.**
+En el parte del 112 hay una frase que para nosotros es la más importante. Las compañías explican por qué la reparación va lenta: las carreteras y los puertos están cortados por la nieve, los árboles caídos y los argayos. Es decir, hay brigadas, pero no se puede llegar hasta la avería.
 
-**Octubre de 2018.** Nieve húmeda. En el peor momento hay unos 15 000 hogares sin luz; por la tarde, todavía unos 13 500. La lista de concejos es casi la misma: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. En total, 169 incidencias por árboles caídos sobre las carreteras, en 17 concejos[^3].
+**Octubre de 2018.** Nieve húmeda. En el peor momento hay unos 15 000 hogares sin luz; por la tarde, todavía unos 13 500. Los municipios son casi los mismos: Degaña, Ibias, Somiedo, Cangas del Narcea, Quirós, Teverga, Caso, Lena, Aller, Los Oscos. Los árboles caen sobre las carreteras en 17 municipios, con 169 incidencias en total[^3].
 
-Si ponemos los dos partes uno al lado del otro, el cuadro es el mismo:
+Si ponemos los dos partes uno al lado del otro, en los dos pasan dos cosas:
 
 1. **El temporal rompe las líneas** y se va la luz.
 2. **Los árboles y la nieve cortan las carreteras** y la ayuda no puede llegar.
 
-Y siempre en los mismos concejos de montaña.
+Y pasan en los mismos municipios de montaña.
 
 **Así que en la montaña el peligro no es solo la avería, sino también cuánto se tarda en llegar hasta ella.**
 
-## Europa: tres borrascas y lo que nos enseñaron
+## No es solo cosa de Asturias
 
-1. **Suecia, 2005, borrasca Gudrun.** Unos 250 millones de árboles derribados y unas 700 000 personas sin luz, algunas hasta 35 días. Después de aquello, Suecia empezó a soterrar las líneas de distribución que atravesaban bosques[^4].
-2. **Reino Unido, 2021, borrasca Arwen.** Más de un millón de abonados sin luz; unos 40 000, más de tres días, y casi 4000, más de una semana. Casi todos los daños los causaron árboles y ramas. El regulador, Ofgem, descubrió dos cosas. El dinero de poda y tala se destinaba a cumplir la normativa, no a que la red aguantara la borrasca. Y las compañías no sabían de antemano dónde vivían sus clientes más vulnerables[^5].
-3. **Portugal, 2026, borrasca Kristin.** Más de un millón de abonados sin luz y más de 6000 km de red de distribución afectados. Dos semanas después, unos 30 000 abonados seguían sin electricidad. Reparar la red le costó a la distribuidora E-REDES unos 110 millones de euros. Es más o menos un 2 % del daño total, que se estimó en 5300 millones. Solo estaba asegurado el 26 %[^6].
+¿Será algo local? Vamos a ver qué ha pasado en otros países de Europa. Tomamos tres grandes borrascas y vemos qué se aprendió de cada una.
 
-La Agencia Europea de Medio Ambiente añade un dato: unos 6 de cada 10 fallos del suministro eléctrico provocan a su vez fallos en otros sectores, sobre todo en las telecomunicaciones[^6]. **Se va la luz y, poco después, también se queda mudo el teléfono con el que pedimos ayuda.**
+1. **Suecia, 2005, borrasca Gudrun.** Unos 250 millones de árboles derribados. Unas 700 000 personas sin luz, algunas hasta 35 días. Después de aquello, Suecia empezó a soterrar las líneas de distribución que atravesaban bosques[^4].
+2. **Reino Unido, 2021, borrasca Arwen.** Más de un millón de abonados sin luz; unos 40 000, más de tres días, y casi 4000, más de una semana. Casi todos los daños los causaron árboles y ramas. El regulador, Ofgem, descubrió dos cosas. La primera: el dinero de poda y tala se gastaba en cumplir la normativa, no en que la red aguantara la borrasca. La segunda: las compañías no sabían de antemano dónde vivían sus clientes más vulnerables[^5].
+3. **Portugal, 2026, borrasca Kristin.** Más de un millón de abonados sin luz y más de 6000 km de red de distribución afectados. Dos semanas después, unos 30 000 abonados seguían sin electricidad. Reparar la red le costó a la distribuidora E-REDES unos 110 millones de euros. Es más o menos la quincuagésima parte del daño total, que se estimó en 5300 millones. Solo estaba asegurado el 26 %[^6].
 
-## Por qué no soterrarlo todo
+La Agencia Europea de Medio Ambiente añade algo más. Unos 6 de cada 10 fallos del suministro eléctrico provocan a su vez fallos en otros sectores, sobre todo en las telecomunicaciones[^6]. Primero se va la luz y luego se queda mudo el teléfono con el que pedimos ayuda.
 
-Es lo primero que pregunta casi todo el mundo. Respuesta corta: bajo tierra es más caro, más complicado y más lento de reparar. Las cifras que siguen son para líneas de transporte de 400 kV[^7].
+**Así que es un problema común: árboles, borrascas y un largo camino hasta quienes necesitan ayuda.**
+
+## Por qué no soterrar los conductores
+
+Es lo primero que se nos ocurre. Respuesta corta: bajo tierra es más caro, más complicado y la reparación tarda más. Las cifras que siguen son para líneas de transporte de 400 kV[^7].
 
 1. **Más caro.** El cable subterráneo cuesta entre 4 y 8 millones de euros por kilómetro, y más de 10 en terreno difícil. Una línea aérea cuesta entre 0,6 y 1 millón en zona rural, y entre 1,5 y 2 en montaña.
-2. **Más complicado.** Un cable largo de corriente alterna se comporta como un condensador enorme. A partir de unos 30-35 km necesita un equipo aparte, y caro, sin el que sencillamente no funciona.
-3. **Más lento de reparar.** Un conductor aéreo roto se ve desde la carretera y, si se puede llegar hasta él, se repara en horas. Un cable dañado hay que localizarlo, excavar y montar un tramo nuevo: días o semanas.
+2. **Más complicado.** Un cable largo de corriente alterna se comporta como un condensador enorme. A partir de unos 30-35 km necesita un equipo aparte, y caro, sin el que no funciona.
+3. **La reparación tarda más.** Un conductor aéreo roto se ve desde la carretera. Si se puede llegar hasta él, se repara en horas. Un cable dañado primero hay que localizarlo; luego, excavar y montar un tramo nuevo. Eso son días o semanas.
 
 Suecia demostró que una parte de la red se puede soterrar. Pero en montaña, con laderas empinadas y valles estrechos, la mayoría de las líneas seguirán sobre apoyos durante mucho tiempo.
 
@@ -57,31 +67,35 @@ Suecia demostró que una parte de la red se puede soterrar. Pero en montaña, co
 
 ## Qué peligro supone una línea para quien vive cerca
 
-Aquí hay dos cosas distintas, y es fácil confundirlas.
+Aquí es fácil mezclar dos cosas distintas. Vamos a separarlas.
 
-1. **El peligro de la propia línea.** Un conductor que roza un árbol o que cae al suelo puede incendiar el monte. Un conductor en tensión tirado en el suelo puede matar. Las dos cosas son más peligrosas cuanto más cerca está la casa: una casa a 20 metros de la línea y otra a un kilómetro son historias distintas. Y las consecuencias pueden salir caras. En California, los incendios causados por líneas se han convertido en el tema central de los planes de las eléctricas[^8]. En Chile, un tribunal obligó a una compañía a indemnizar a los afectados por un incendio que empezó en una línea mal mantenida[^9].
-2. **Quién se queda sin luz.** Esto no depende de la distancia a la línea. Lo decide el esquema de la red: quién está «aguas abajo» del punto de la avería. Una casa justo debajo de la línea puede seguir con luz y un pueblo a tres kilómetros quedarse a oscuras.
+1. **El peligro de la propia línea.** Un conductor que roza un árbol o que cae al suelo puede incendiar el monte. Un conductor en tensión tirado en el suelo puede matar. Las dos cosas son más peligrosas cuanto más cerca está la casa. Una casa a 20 metros de la línea y otra a un kilómetro son historias distintas. Y las consecuencias pueden salir caras. En California, los incendios causados por líneas se han convertido en el tema central de los planes de las eléctricas[^8]. En Chile, un tribunal obligó a una compañía a indemnizar a los afectados por un incendio que empezó en una línea mal mantenida[^9].
+2. **Quién se queda sin luz.** Esto no depende de la distancia a la línea. Lo decide el esquema de la red: quién está conectado «aguas abajo» del punto de la avería. Una casa justo debajo de la línea puede seguir con luz y un pueblo a tres kilómetros quedarse a oscuras.
 
 **Nosotros nos ocupamos de lo primero:** quién vive cerca de la fuente de peligro y cuánto tarda en llegar la ayuda. Para lo segundo hace falta el esquema de la red, y no es público.
 
-Cuando en España se habla de «casas junto a líneas de alta tensión», casi siempre se piensa en los campos electromagnéticos y la salud. Eso no lo tratamos aquí.
+Y una aclaración más. Cuando en España se habla de «casas junto a líneas de alta tensión», casi siempre se piensa en los campos electromagnéticos y la salud. Eso no lo tratamos aquí.
 
-## Por qué les interesa a las propias compañías
+## Qué exige la norma y qué le falta
 
-La norma española para líneas aéreas de alta tensión, la ITC-LAT 07, ya obliga a vigilar los árboles cercanos a los conductores. Pero la comprobación que plantea es geométrica: si el árbol alcanza el conductor o no[^10]. La norma no dice nada sobre:
+La norma española para líneas aéreas de alta tensión se llama ITC-LAT 07. Ya obliga a vigilar los árboles cercanos a los conductores. Pero la comprobación que plantea es geométrica: si el árbol alcanza el conductor o no[^10].
 
-- dónde vive gente cerca;
+La norma no dice nada sobre:
+
+- dónde vive gente cerca de la línea;
 - cuántos minutos tardan en llegar los bomberos;
-- qué tramo hay que revisar primero.
+- qué tramo de la línea hay que revisar primero.
 
-**Ahí está la diferencia entre «cumplir la norma» y «gestionar el riesgo».** Una compañía que sabe dónde pasan sus líneas más cerca de las viviendas y adónde tarda más en llegar la ayuda puede empezar la poda y tala por esos tramos. Y puede demostrar que conoce el riesgo y que trabaja en él.
+**Ahí está la diferencia entre «cumplir la norma» y «gestionar el riesgo».** Una distribuidora que sabe dónde pasan sus líneas más cerca de las viviendas y adónde tarda más en llegar la ayuda puede empezar la poda y tala por esos tramos. Y puede demostrar que conoce el riesgo y que trabaja en él.
 
-La ley va en la misma dirección. En España se prepara una ley de protección y resiliencia de las entidades críticas, que traspone la directiva europea 2022/2557. Las instalaciones energéticas declaradas críticas tendrán que evaluar sus riesgos, también los naturales, y contar con un plan de resiliencia[^11].
+La ley va en la misma dirección. En España se prepara una ley de protección y resiliencia de las entidades críticas, que traspone la directiva europea 2022/2557. Las instalaciones energéticas que se declaren críticas tendrán que evaluar sus riesgos, también los naturales, y contar con un plan de resiliencia[^11].
 
 ## Qué existe ya
 
-1. **Estados Unidos.** Las eléctricas calculan el riesgo como la probabilidad multiplicada por las consecuencias. Las consecuencias las modelizan según la densidad de edificación y de vegetación, en una malla con celdas de unos 200 metros. Pero son modelos cerrados, comerciales y pensados para los incendios de California[^8].
-2. **Asturias.** En 2024, Red Eléctrica y el Gobierno del Principado acordaron dejar sin tensión las líneas en caso de incendio, inspeccionar los trazados en las zonas con incendios frecuentes e intercambiar el índice de riesgo de incendio[^12]. El nuevo plan de incendios forestales 2026-2030 calcula cuánto se tarda en llegar a un incendio en cada comarca. Pero lo calcula a partir de incendios pasados, no de las casas junto a las líneas[^13].
+Antes de construir lo nuestro, veamos qué han hecho ya otros.
+
+1. **Estados Unidos.** Las eléctricas calculan el riesgo como la probabilidad de avería multiplicada por sus consecuencias. Las consecuencias las modelizan según la densidad de edificación y de vegetación, en una malla con celdas de unos 200 metros. Pero son modelos cerrados, comerciales y pensados para los incendios de California[^8].
+2. **Asturias.** En 2024, Red Eléctrica y el Gobierno de Asturias acordaron tres cosas: dejar sin tensión las líneas en caso de incendio, inspeccionar los trazados en las zonas con incendios frecuentes e intercambiar el índice de riesgo de incendio[^12]. El nuevo plan de incendios forestales 2026-2030 calcula cuánto se tarda en llegar a un incendio en cada zona de Asturias. Pero lo calcula a partir de incendios pasados, no de las casas junto a las líneas[^13].
 
 Buscamos una herramienta abierta que, para cualquier municipio, respondiera a la vez a dos preguntas: qué edificios de viviendas están cerca de líneas aéreas y cuánto tarda en llegar la ayuda, de día y de noche. **No la encontramos.**
 
@@ -89,15 +103,15 @@ Buscamos una herramienta abierta que, para cualquier municipio, respondiera a la
 
 Así que la construiremos nosotros: en QGIS y con Python.
 
-Entrada: el nombre de un municipio. Salida:
+La herramienta recibe como entrada el nombre de un municipio. Como resultado, devuelve:
 
-- los edificios residenciales, con su distancia a la línea más cercana;
+- los edificios residenciales y la distancia de cada uno a la línea más cercana;
 - cuántas viviendas hay en esos edificios;
 - en cuántos minutos llegan los bomberos a cada edificio, de día y de noche;
 - los tramos de línea por los que conviene empezar la revisión;
 - un mapa de dónde podemos fiarnos de los datos abiertos sobre las líneas y dónde tienen huecos.
 
-No sabemos qué cifras vamos a obtener. Solo las conoceremos cuando escribamos el código y haga los cálculos.
+Todavía no sabemos qué cifras vamos a obtener. Solo las conoceremos cuando escribamos el código y haga los cálculos.
 
 **Lo que la herramienta no afirma:**
 
@@ -105,20 +119,21 @@ No sabemos qué cifras vamos a obtener. Solo las conoceremos cuando escribamos e
 - el tiempo de viaje lo calculamos con las carreteras despejadas; en un temporal de verdad será mayor;
 - no evaluamos los campos electromagnéticos.
 
-Trabajaremos con el concejo de Lena como ejemplo. Aparece en los dos partes de 2018. El mismo camino se puede recorrer con cualquier municipio, en cualquier país donde haya líneas, casas y carreteras. Donde haya que poner datos propios, lo indicaremos.
+Trabajaremos con el municipio de Lena como ejemplo. Aparece en los dos partes de 2018. El mismo camino se puede recorrer con cualquier municipio, en cualquier país donde haya líneas, casas y carreteras. Donde haya que poner datos propios, lo indicaremos.
 
 ## Cómo vamos a aprender
 
-Este libro es para quien conoce bien QGIS pero nunca ha escrito código. Empezaremos Python desde cero, dentro de QGIS, y aprenderemos solo lo que necesita nuestra tarea. Cada paso del proyecto es una lección:
+Conocemos QGIS, pero nunca hemos escrito código. Por eso empezaremos Python desde cero, dentro de QGIS, y aprenderemos solo lo que necesita nuestra tarea.
 
-1. Primero decidimos qué queremos obtener.
-2. Luego escribimos el código y repasamos cada línea.
-3. Vemos qué ha salido y comprobamos si podemos fiarnos de ello.
+Cada paso del proyecto es una lección:
 
-También habrá errores: sin ellos no hay aprendizaje ni trabajo de ingeniería.
+1. primero decidimos qué queremos obtener;
+2. luego escribimos el código y repasamos cada línea;
+3. después vemos qué ha salido y comprobamos si podemos fiarnos de ello.
+
+También habrá errores. Sin ellos no hay aprendizaje ni trabajo de ingeniería.
 
 **Este libro no va de PyQGIS en sí, sino de cómo resolver con él un problema real.**
-
 ---
 
 ## Notas y fuentes

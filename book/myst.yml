@@ -19,10 +19,7 @@ project:
         - title: "Capítulo 1. Qué construimos"
           children:
             - file: es/01-1-specification.md
-        - title: "Capítulo 2. El límite del municipio y el primer script"
-          children:
-            - file: es/02-1-console.md
-            - file: es/02-2-script-area.md
+            - file: es/01-2-calculation-and-checks.md
         - file: es/solutions.md
     - title: English
       children:
@@ -32,10 +29,7 @@ project:
         - title: "Chapter 1: What we're building"
           children:
             - file: en/01-1-specification.md
-        - title: "Chapter 2: The municipal boundary and our first script"
-          children:
-            - file: en/02-1-console.md
-            - file: en/02-2-script-area.md
+            - file: en/01-2-calculation-and-checks.md
         - file: en/solutions.md
 site:
   template: book-theme

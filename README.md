@@ -4,7 +4,7 @@ Build a real QGIS tool, from an empty folder to a working Processing algorithm, 
 
 Book 1 of the *From Field to Code* series. Written in Spanish and English.
 
-> Status: work in progress (started November 2026). Published so far: the prologue and lessons 1.1, 2.1 and 2.2.
+> Status: work in progress (started November 2026). Published so far: the prologue and lessons 1.1 and 1.2.
 
 - Read the book: https://elviragd-lab.github.io/field-to-code-pyqgis/
 - The whole series: https://elviragd-lab.github.io
