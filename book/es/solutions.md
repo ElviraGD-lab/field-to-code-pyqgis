@@ -139,3 +139,78 @@ for voltage in voltages:
 :::{dropdown} Solución
 La distribuidora, los bomberos y el 112, y el ayuntamiento.
 :::
+
+## Lección 2.3. El puesto de trabajo y el mapa de PyQGIS
+
+[Volver a la lección](02-3-workplace-and-map.md)
+
+(es-sol-2-3-1)=
+### Ejercicio 1
+
+**Recordar.** ¿Dónde está la geometría en el esquema: en el proyecto, en la capa o en el objeto de la capa?
+
+:::{dropdown} Solución
+En el objeto de la capa, una en cada uno.
+:::
+
+(es-sol-2-3-2)=
+### Ejercicio 2
+
+**Corregir.** Esta línea del editor debería mostrar el número de objetos de la capa, pero en la consola no ha aparecido nada. Vamos a encontrar el error:
+
+```python
+layer.featureCount()
+```
+
+:::{dropdown} Solución
+En el editor hace falta `print`; si no, Python no muestra nada. Lo correcto es:
+
+```python
+print(layer.featureCount())
+```
+:::
+
+(es-sol-2-3-3)=
+### Ejercicio 3
+
+**Recordar la lección 1.2.** ¿Desde dónde mide la norma la franja de seguridad: desde el eje de la línea o desde el conductor?
+
+:::{dropdown} Solución
+Desde el conductor en su máxima desviación por el viento. Por eso nuestra franja trazada desde el eje es una estimación por defecto.
+:::
+
+## Lección 2.4. Bajamos por el mapa: campos, objetos de la capa, atributos y geometría
+
+[Volver a la lección](02-4-fields-features-geometry.md)
+
+(es-sol-2-4-1)=
+### Ejercicio 1
+
+**Recordar.** ¿Cómo se saca el valor del campo `name` del objeto de la capa `feature`?
+
+:::{dropdown} Solución
+`feature["name"]`.
+:::
+
+(es-sol-2-4-2)=
+### Ejercicio 2
+
+**Corregir.** Este bucle tiene un error. Vamos a encontrarlo:
+
+```python
+for feature in layer.getFeatures:
+    print(feature["name"])
+```
+
+:::{dropdown} Solución
+A `getFeatures` le faltan los paréntesis. Lo correcto es: `for feature in layer.getFeatures():`.
+:::
+
+(es-sol-2-4-3)=
+### Ejercicio 3
+
+**Recordar la lección 2.1.** ¿Con qué signos se crea un diccionario y con cuáles se saca de él un valor por su clave?
+
+:::{dropdown} Solución
+Se crea con llaves, `{ }`, y el valor se saca con corchetes, `[ ]`: `municipality["code"]`.
+:::

@@ -202,7 +202,7 @@ Vamos por partes:
 - `math.pi` es el número π del módulo `math`. El punto significa «dentro de»: el `pi` que está en `math`.
 - `math.sqrt(16)` es la función `sqrt` (de square root, «raíz cuadrada») del módulo `math`. La raíz de 16 es 4.
 
-El propio QGIS también es un conjunto de módulos. Todo lo que hagamos con las capas son órdenes de los módulos de QGIS. Por ejemplo, las herramientas de Processing están en un módulo que se llama justamente así: `processing`. Cómo están hechos los módulos de QGIS lo veremos en las lecciones 2.3 a 2.5.
+El propio QGIS también es un conjunto de módulos. Todo lo que hagamos con las capas son órdenes de los módulos de QGIS. Por ejemplo, las herramientas de Processing están en un módulo que se llama justamente así: `processing`. Cómo están hechos los módulos de QGIS lo veremos en las próximas lecciones.
 
 ## Paso 7. Cómo leer un mensaje de error
 

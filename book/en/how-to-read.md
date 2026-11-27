@@ -5,7 +5,7 @@ title: "How to read this book"
 ## What we'll need
 
 1. **A computer** running Windows, macOS or Linux.
-2. **QGIS 4.2 or later.** We can download it free from qgis.org. Version 4.2 is the first long-term release in the 4 series: it will keep getting fixes and updates for several years. There's no need to install Python separately: it's already inside QGIS.
+2. **QGIS 4.2 or later.** We can download it free from qgis.org. We checked all the code in version 4.2. There's no need to install Python separately: it's already inside QGIS.
 3. **An internet connection.** All the data in the book is open. We download it as we go.
 
 That's all. We don't need to know any Python beforehand. All we need is what we can already do: work in QGIS with the mouse.

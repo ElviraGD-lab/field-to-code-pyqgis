@@ -202,7 +202,7 @@ Let's go through it:
 - `math.pi` is the number π from the `math` module. The dot means 'inside': the `pi` that sits in `math`.
 - `math.sqrt(16)` is the function `sqrt` (from 'square root') from the `math` module. The square root of 16 is 4.
 
-QGIS itself is a set of modules too. Everything we'll do with layers is commands from QGIS modules. For example, the Processing tools sit in a module that's simply called `processing`. We'll look at how the QGIS modules work in lessons 2.3–2.5.
+QGIS itself is a set of modules too. Everything we'll do with layers is commands from QGIS modules. For example, the Processing tools sit in a module that's simply called `processing`. We'll look at how the QGIS modules work in the next lessons.
 
 ## Step 7: How to read an error message
 

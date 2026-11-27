@@ -24,6 +24,8 @@ project:
           children:
             - file: es/02-1-python-values.md
             - file: es/02-2-python-decisions.md
+            - file: es/02-3-workplace-and-map.md
+            - file: es/02-4-fields-features-geometry.md
         - file: es/solutions.md
     - title: English
       children:
@@ -38,6 +40,8 @@ project:
           children:
             - file: en/02-1-python-values.md
             - file: en/02-2-python-decisions.md
+            - file: en/02-3-workplace-and-map.md
+            - file: en/02-4-fields-features-geometry.md
         - file: en/solutions.md
 site:
   template: book-theme

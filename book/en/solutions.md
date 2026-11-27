@@ -139,3 +139,78 @@ for voltage in voltages:
 :::{dropdown} Answer
 The distribution company, fire crews and the 112 emergency service, and the municipality.
 :::
+
+## Lesson 2.3: Our workplace and a map of PyQGIS
+
+[Back to the lesson](02-3-workplace-and-map.md)
+
+(en-sol-2-3-1)=
+### Exercise 1
+
+**Recall.** Where on the diagram is the geometry: with the project, with the layer or with the feature?
+
+:::{dropdown} Answer
+With the feature, one for each.
+:::
+
+(en-sol-2-3-2)=
+### Exercise 2
+
+**Fix it.** This line in the editor should show the number of features, but nothing appeared in the console. Let's find the mistake:
+
+```python
+layer.featureCount()
+```
+
+:::{dropdown} Answer
+In the editor, we need `print`, otherwise Python shows nothing. The correct version is:
+
+```python
+print(layer.featureCount())
+```
+:::
+
+(en-sol-2-3-3)=
+### Exercise 3
+
+**Back to lesson 1.2.** What does the regulation measure the safety strip from: the centre line or the conductor?
+
+:::{dropdown} Answer
+From the conductor that the wind has blown furthest out. That's why our strip, measured from the centre line, is a lower bound.
+:::
+
+## Lesson 2.4: Going down the map: fields, features, attributes and geometry
+
+[Back to the lesson](02-4-fields-features-geometry.md)
+
+(en-sol-2-4-1)=
+### Exercise 1
+
+**Recall.** How do we get the value of the `name` field from the feature `feature`?
+
+:::{dropdown} Answer
+`feature["name"]`.
+:::
+
+(en-sol-2-4-2)=
+### Exercise 2
+
+**Fix it.** There's one mistake in this loop. Let's find it:
+
+```python
+for feature in layer.getFeatures:
+    print(feature["name"])
+```
+
+:::{dropdown} Answer
+`getFeatures` has no brackets. The correct version is `for feature in layer.getFeatures():`.
+:::
+
+(en-sol-2-4-3)=
+### Exercise 3
+
+**Back to lesson 2.1.** Which brackets create a dictionary, and which do we use to get a value out of it by its key?
+
+:::{dropdown} Answer
+We create it with curly brackets `{ }`, and we get a value with square brackets `[ ]`: `municipality["code"]`.
+:::
